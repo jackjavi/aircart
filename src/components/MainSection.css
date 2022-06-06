@@ -1,0 +1,702 @@
+@font-face {
+  font-family: Monument Extended;
+  src: url(/home/jackjavi/Desktop/aircart/src/Fonts/MonumentExtended/MonumentExtended-Regular.otf);
+}
+
+.main-section {
+  margin-top: 34px;
+  margin-left: 70px;
+  margin-right: 70px;
+  display: flex;
+  gap: 90px;
+  position: relative;
+}
+
+.featured-product-link {
+  position: absolute;
+  right: 0px;
+  bottom: 15px;
+}
+
+.featured-product-link p {
+  width: 278px;
+  height: 24px;
+
+  font-family: "General Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: right;
+
+  color: #ffffff;
+}
+
+.featured-product-link span {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.featured-product-link span a {
+  height: 22px;
+
+  font-family: "General Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+
+  text-decoration-line: underline;
+
+  color: #ffffff;
+}
+
+.main-left {
+  width: 493px;
+  height: 763px;
+  background: #ffffff;
+  border-radius: 16px;
+  overflow-y: scroll;
+}
+
+.main-left::-webkit-scrollbar {
+  display: none;
+}
+
+.main-left {
+  scrollbar-width: none;
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-info-content {
+  margin: 32px;
+}
+
+.product-info-header h3 {
+  font-family: "Monument Extended";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 45px;
+  margin-bottom: 8px;
+}
+
+.product-info-header p {
+  height: 52px;
+
+  font-family: "General Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 32px;
+}
+
+.product-info-header hr {
+  border: 1px solid #96989a;
+  margin-bottom: 32px;
+}
+
+.product-info h3 {
+  height: 29px;
+
+  font-family: "Monument Extended";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #2a2929;
+  margin-bottom: 24px;
+}
+
+.product-file-label {
+  width: 93px;
+  height: 22px;
+  font-family: "General Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 8px;
+  color: #2a2929;
+}
+
+.product-file-div {
+  height: 147px;
+  color: transparent;
+  background: #f2f6fb;
+  border: 1px dashed #bec9d5;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-file-div p {
+  width: 209px;
+  height: 30px;
+
+  font-family: "General Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+
+  color: #000000;
+}
+
+.product-file {
+  width: 153px;
+  height: 30px;
+}
+
+.product-file::-webkit-file-upload-button {
+  visibility: hidden;
+}
+
+.product-file::before {
+  content: "upload from your device";
+  margin-left: auto;
+  color: black;
+  outline: none;
+  white-space: nowrap;
+  cursor: pointer;
+
+  height: 30px;
+  font-family: "General Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  text-decoration-line: underline;
+  color: #000000;
+}
+
+.product-name-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-name-label {
+  height: 22px;
+  margin-bottom: 8px;
+  font-family: "General Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.product-name-input {
+  height: 100%;
+  height: 56px;
+  margin-bottom: 16px;
+  border: 1px solid rgb(192, 192, 192);
+  border-radius: 2px;
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+}
+
+.product-name-input::placeholder {
+  width: 105px;
+  height: 30px;
+  font-family: "General Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  padding-left: 10px;
+
+  color: #636363;
+}
+
+.product-desc {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-desc-label {
+  height: 22px;
+  margin-bottom: 8px;
+  font-family: "General Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #2a2929;
+}
+
+.product-desc-name {
+  width: 100%;
+  height: 80px;
+  margin-bottom: 16px;
+
+  font-size: 16px;
+  border: 1px solid rgb(192, 192, 192);
+  border-radius: 2px;
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+}
+
+.product-desc-name::placeholder {
+  font-family: "General Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  padding-left: 10px;
+  color: #636363;
+}
+
+.product-price-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-price-label {
+  height: 1px;
+  font-family: "General Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #2a2929;
+}
+
+.product-price-input {
+  margin-top: 8px;
+  width: 100%;
+  height: 80px;
+  margin-bottom: 16px;
+  font-size: 16px;
+  border: 1px solid rgb(192, 192, 192);
+  border-radius: 2px;
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+}
+
+.product-price-input::placeholder {
+  font-family: "General Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  padding-left: 10px;
+  color: #636363;
+}
+
+.free-product {
+  display: flex;
+  gap: 5px;
+}
+
+.free-product p {
+  width: 137px;
+  height: 22px;
+
+  font-family: "General Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 32px;
+  color: #2a2929;
+}
+
+.hr {
+  border: 1px solid #96989a;
+  margin-bottom: 32px;
+}
+
+.customize-div h3 {
+  height: 29px;
+
+  font-family: "Monument Extended";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #2a2929;
+  margin-bottom: 24px;
+}
+
+.customize-div h4 {
+  width: 94px;
+  height: 22px;
+
+  font-family: "General Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #2a2929;
+  margin-bottom: 8px;
+}
+
+.cover-img-input-div {
+  width: 429px;
+  height: 147px;
+
+  background: #f2f6fb;
+  border: 1px dashed #bec9d5;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 24px;
+}
+
+.cover-img-input {
+  width: 185px;
+  height: 30px;
+}
+
+.cover-img-input::-webkit-file-upload-button {
+  visibility: hidden;
+}
+
+.cover-img-input::before {
+  content: "Upload image or video";
+  color: black;
+  display: inline-block;
+  font-family: "General Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+
+  text-decoration-line: underline;
+
+  color: #000000;
+}
+
+.cover-img-input-div p {
+  width: 305px;
+  height: 30px;
+
+  font-family: "General Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+
+  color: #000000;
+}
+
+.thumbnail-img {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+}
+
+.thumbnail-img h4 {
+  width: 128px;
+  height: 22px;
+
+  font-family: "General Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #2a2929;
+}
+
+.input-file {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.thumbnail-img input {
+  width: 147px;
+  height: 147px;
+  color: transparent;
+  background: #f2f6fb;
+  border: 1px dashed #bec9d5;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.thumbnail-img input::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.thumbnail-img input::before {
+  content: "Select some files";
+  color: black;
+  display: inline-block;
+  background: -webkit-linear-gradient(top, #f9f9f9, #e3e3e3);
+  border: 1px solid #999;
+  border-radius: 3px;
+  padding: 5px 8px;
+  outline: none;
+  white-space: nowrap;
+  cursor: pointer;
+  text-shadow: 1px 1px #fff;
+  font-weight: 700;
+  font-size: 10pt;
+  margin-left: 150px;
+  margin-top: 60px;
+}
+.thumbnail-img input:hover::before {
+  border-color: black;
+}
+.thumbnail-img input:active {
+  outline: 0;
+}
+.thumbnail-img input:active::before {
+  background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+
+.thumbnail-img p {
+  width: 230px;
+  height: 60px;
+
+  font-family: "General Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+
+  color: #000000;
+}
+
+.payouts-div {
+  margin-bottom: 32px;
+}
+
+.payouts-div h3 {
+  width: 138px;
+  height: 29px;
+
+  font-family: "Monument Extended";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 24px;
+  color: #2a2929;
+}
+
+.payout-method {
+  width: 210px;
+  height: 22px;
+
+  font-family: "General Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #2a2929;
+  margin-bottom: 16px;
+}
+
+.payout-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.payout-logo {
+  width: 132px;
+  height: 40px;
+  background: #e7f2fb;
+  border: 1px solid #499df8;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.side-a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 8px;
+}
+
+.side-b {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bank-2-logo {
+  width: 38px;
+  height: 22px;
+}
+
+.bank-logo span {
+  display: flex;
+  flex-direction: column;
+}
+
+.connect-paypal-img {
+  margin-bottom: 32px;
+}
+
+.personalized-url {
+  margin-top: 32px;
+  margin-right: 70px;
+}
+
+.personalized-url h3 {
+  margin-bottom: 24px;
+
+  width: 379px;
+  height: 29px;
+
+  font-family: "Monument Extended";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #2a2929;
+}
+
+.personalized-url h4 {
+  width: 31px;
+  height: 22px;
+
+  font-family: "General Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #2a2929;
+}
+
+.url-input {
+  display: flex;
+  margin-bottom: 8px;
+  border: 1px solid #96989a;
+  border-radius: 2px;
+}
+
+.url-input-1 {
+  width: 183px;
+  height: 56px;
+  background: #e6e9eb;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.url-input-1 p {
+  width: 151px;
+  height: 19px;
+  font-family: "General Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #2a2929;
+}
+
+.url-input-2 {
+  display: flex;
+  align-items: center;
+  margin-left: 16px;
+}
+
+.url-input-2 input {
+  border: none;
+  height: 20px;
+  width: 57px;
+}
+
+.url-input-2 input::placeholder {
+  width: 60px;
+  height: 22px;
+  font-family: "General Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #adb3b8;
+}
+
+.copy-url {
+  font-family: "General Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+
+  text-decoration-line: underline;
+
+  color: #2a2929;
+  border: none;
+}
+
+.preview-div {
+  width: 493px;
+  height: 366.01px;
+
+  background: #ffffff;
+  border-radius: 0px 0px 16px 16px;
+}
+
+.preview-btn {
+  width: 429px;
+  height: 56px;
+  border: none;
+  background: #000000;
+  border-radius: 4px;
+
+  font-family: "General Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+
+  color: #ffffff;
+  margin: 100px 32px 0 32px;
+}
+
+.main-right {
+  display: flex;
+  flex-direction: column;
+  width: 673px;
+  height: 212px;
+}
+
+.main-right h3 {
+  width: 570px;
+  font-family: "Monument Extended";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 60px;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.main-right p {
+  width: 593px;
+  height: 58px;
+
+  font-family: "General Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  color: #ffffff;
+}
