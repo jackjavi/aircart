@@ -1,0 +1,48 @@
+.featured-container {
+  background-color: wheat;
+}
+
+@media only screen and (max-width: 800px) {
+  .featured-product-link {
+    display: none;
+  }
+}
+
+.featured-product-link {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.featured-product-link p {
+  width: 278px;
+  height: 24px;
+
+  font-family: "General Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: right;
+
+  color: #ffffff;
+}
+
+.featured-product-link span {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.featured-product-link span a {
+  height: 22px;
+
+  font-family: "General Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+
+  text-decoration-line: underline;
+
+  color: #ffffff;
+}

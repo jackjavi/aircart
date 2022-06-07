@@ -1,7 +1,7 @@
 import React from "react";
 import "./Homepage.css";
-import Header from "./Header";
-import MainSection from "./MainSection";
+import Header from "../components/Header";
+import MainSection from "../components/MainSection";
 
 const Homepage = () => {
   return (

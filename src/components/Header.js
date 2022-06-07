@@ -14,13 +14,14 @@ const Header = () => {
             <a href="/pricing">Pricing</a>
           </span>
           <span>
-            <a href="features">Features</a>
+            <a href="/features">Features</a>
           </span>
           <span>
-            <a href="login">Login</a>
+            <a href="/login">Login</a>
           </span>
+
+          <button className="signup-btn">Sign Up</button>
         </nav>
-        <button className="signup-btn">Sign Up</button>
       </div>
     </header>
   );

@@ -1,0 +1,35 @@
+.main-right {
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 800px) {
+  .main-right {
+    display: none;
+  }
+}
+
+.main-right h3 {
+  font-family: "Monument Extended";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 60px;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+@media only screen and (min-width: 900px) {
+  .main-right h3 {
+  }
+}
+
+.main-right p {
+  max-width: 630px;
+  font-family: "General Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  color: #ffffff;
+}
