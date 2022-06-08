@@ -6,15 +6,15 @@
   border: none;
   background: #000000;
   border-radius: 4px;
-  padding: 13px 171px;
-
+  padding: 13px 181.5px;
   font-family: "General Sans";
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 30px;
-  margin: auto;
+
   color: #ffffff;
+  width: 429px;
   width: 100%;
   z-index: 200;
 }

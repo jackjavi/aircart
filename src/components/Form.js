@@ -71,16 +71,10 @@ const Form = () => {
                 className="product-name-input"
                 placeholder="Email address"
               />
-              <p>
-                <p className="email-desc-top">
-                  You'll need to verify your email so we know it's really you.
-                </p>
-                <p>
-                  <span className="span-1">
-                    Don't want to verify every time?{" "}
-                  </span>
-                  <span className="span-2">Create Account</span>
-                </p>
+
+              <p className="email-desc-top">
+                We will send notifications to your email.
+                <span className="span-2">Create Account</span>
               </p>
             </div>
 
@@ -145,7 +139,7 @@ const Form = () => {
                     <ToggleOffIcon
                       onClick={handleToggleOff}
                       fontSize="large"
-                      color="primary"
+                      color="secondary light"
                     />
                   )}
                 </span>

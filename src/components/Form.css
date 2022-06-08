@@ -11,6 +11,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 435.5px;
 }
 
 .main-left {
@@ -121,6 +122,7 @@
 .span-2 {
   text-decoration-line: underline;
   cursor: pointer;
+  margin-left: 5px;
 }
 
 .product-file-label {
@@ -192,7 +194,7 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 30px;
-  background-color: #499df8;
+  background: #f2f6fb;
   color: #000000;
 }
 
