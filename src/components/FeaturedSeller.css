@@ -15,9 +15,6 @@
 }
 
 .featured-product-link p {
-  width: 278px;
-  height: 24px;
-
   font-family: "General Sans";
   font-style: normal;
   font-weight: 400;
@@ -34,8 +31,6 @@
 }
 
 .featured-product-link span a {
-  height: 22px;
-
   font-family: "General Sans";
   font-style: normal;
   font-weight: 500;

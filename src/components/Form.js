@@ -8,8 +8,9 @@ import Bank1 from "../assets/bank1.png";
 import Bank2 from "../assets/bank2.png";
 import Bank3 from "../assets/bank3.png";
 import ConnectPaypal from "../assets/connect-paypal.png";
-import FileUploader from "./FileUploader/index";
+
 import CoverImage from "./coverImage";
+import FileUploader3 from "./FileUploader/FileUploader3";
 
 const Form = () => {
   const [toggle, setToggle] = React.useState(false);
@@ -45,12 +46,26 @@ const Form = () => {
         </div>
         <div className="product-info">
           <h3>Product info</h3>
+          <div className="email-address-div">
+            <input
+              type="text"
+              name="productName"
+              onChange={handleChange}
+              id="product-name"
+              className="product-name-input"
+              placeholder="Email address"
+            />
+            <p>
+              We will send notifications to your email.{" "}
+              <span>Create Account</span>{" "}
+            </p>
+          </div>
+
           <label htmlFor="product-file" className="product-file-label">
             Add your file
           </label>
 
-          <FileUploader />
-
+          <FileUploader3 />
           <div className="product-name-div">
             <label htmlFor="product-name" className="product-name-label">
               What's the name of your product?
@@ -64,7 +79,6 @@ const Form = () => {
               placeholder="My Rap Album"
             />
           </div>
-
           <div className="product-desc">
             <label htmlFor="product-desc-name" className="product-desc-label">
               Your product description
@@ -78,7 +92,6 @@ const Form = () => {
               placeholder="Make it descriptive and short."
             />
           </div>
-
           <div product-price-div>
             <label htmlFor="product-price" className="product-price-label">
               Product Price
@@ -88,13 +101,11 @@ const Form = () => {
               <input
                 type="number"
                 name="productPrice"
-                onChange={handleChange}
                 id="product-price"
                 className="product-price-input"
               />
             </div>
           </div>
-
           <div className="free-product">
             <div>
               <span onClick={handleToggle} className="toggleIcons">
@@ -109,8 +120,13 @@ const Form = () => {
               <span className="free-product-desc">Make product free</span>
             </div>
           </div>
-
           <hr className="hr" />
+        </div>
+
+        <div className="preview-div">
+          <button onSubmit={handleSubmit} type="submit" className="preview-btn">
+            Preview
+          </button>
         </div>
         <CoverImage />
         <div className="payouts-div">
@@ -120,7 +136,7 @@ const Form = () => {
             <span className="payout-logo">
               <img src={PaypalLogo} alt="paypal-logo" />
             </span>
-            <span className="payout-logo">
+            <span className="payout-logo mpesa-payout-logo">
               <span>
                 <img className="mpesa-logo" src={Mpesa} alt="mpesa-logo" />
               </span>
@@ -160,11 +176,6 @@ const Form = () => {
             </div>
           </div>
           <button className="copy-url">Copy URL</button>
-        </div>
-        <div className="preview-div">
-          <button onSubmit={handleSubmit} type="submit" className="preview-btn">
-            Preview
-          </button>
         </div>
       </div>
     </div>

@@ -1,9 +1,10 @@
 .main-right {
   display: flex;
   flex-direction: column;
+  padding-top: 70px;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 676px) {
   .main-right {
     display: none;
   }
@@ -13,23 +14,32 @@
   font-family: "Monument Extended";
   font-style: normal;
   font-weight: 400;
-  font-size: 40px;
-  line-height: 60px;
+  font-size: 48px;
+  line-height: 69px;
+
   color: #ffffff;
+
   margin-bottom: 16px;
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 676px) {
   .main-right h3 {
+    max-width: 730px;
   }
 }
 
 .main-right p {
-  max-width: 630px;
   font-family: "General Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 29px;
+
   color: #ffffff;
+}
+
+@media only screen and (min-width: 676px) {
+  .main-right p {
+    max-width: 593px;
+  }
 }

@@ -5,9 +5,9 @@
   overflow-y: scroll;
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 676px) {
   .main-left {
-    min-width: 450px;
+    min-width: 400px;
   }
 }
 
@@ -67,6 +67,30 @@
   margin-bottom: 24px;
 }
 
+.email-address-div {
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.email-address-div input {
+  width: 100%;
+}
+
+.email-address-div p {
+  font-family: "General Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  margin-top: -10px;
+  color: #000000;
+}
+
+.email-address-div span {
+  text-decoration-line: underline;
+  cursor: pointer;
+}
+
 .product-file-label {
   font-family: "General Sans";
   font-style: normal;
@@ -89,6 +113,8 @@
   border-radius: 4px;
 
   margin-bottom: 20px;
+
+  z-index: 60;
 }
 .product-file-div input[type="file"] {
   left: 0;
@@ -138,9 +164,6 @@
   color: #000000;
 }
 
-.product-file::-webkit-file-upload-button {
-}
-
 .product-name-div {
   display: flex;
   flex-direction: column;
@@ -157,13 +180,13 @@
 }
 
 .product-name-input {
-  height: 100%;
-  height: 56px;
   margin-bottom: 16px;
   border: 1px solid rgb(192, 192, 192);
   border-radius: 2px;
   box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
   padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   outline: none;
   font-family: "General Sans";
   font-style: normal;
@@ -173,8 +196,6 @@
 }
 
 .product-name-input::placeholder {
-  width: 105px;
-  height: 30px;
   font-family: "General Sans";
   font-style: normal;
   font-weight: 400;
@@ -190,7 +211,6 @@
 }
 
 .product-desc-label {
-  height: 22px;
   margin-bottom: 8px;
   font-family: "General Sans";
   font-style: normal;
@@ -202,7 +222,8 @@
 
 .product-desc-name {
   width: 100%;
-  height: 80px;
+  padding-top: 32px;
+  padding-bottom: 32px;
   margin-bottom: 16px;
 
   font-size: 16px;
@@ -245,7 +266,7 @@
 .product-price-input-div {
   margin-top: 8px;
   width: 100%;
-  height: 80px;
+
   margin-bottom: 16px;
   font-size: 16px;
   border: 1px solid rgb(192, 192, 192);
@@ -267,10 +288,11 @@
 
 .product-price-input {
   outline: none;
-
+  padding-top: 10px;
+  padding-bottom: 10px;
   border: none;
   padding-left: 8px;
-
+  width: 100%;
   font-family: "General Sans";
   font-style: normal;
   font-weight: 400;
@@ -296,7 +318,6 @@
 }
 
 .toggleIcons {
-  height: 16px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -308,13 +329,17 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 22px;
-  margin-bottom: 32px;
+
   color: #2a2929;
 }
 
 .hr {
   border: 1px solid #96989a;
   margin-bottom: 32px;
+}
+
+.customize-div {
+  margin-top: -190px;
 }
 
 .customize-div h3 {
@@ -351,11 +376,6 @@
   margin-bottom: 24px;
 }
 
-.cover-img-input {
-  width: 185px;
-  height: 30px;
-}
-
 .cover-img-input::-webkit-file-upload-button {
   visibility: hidden;
 }
@@ -376,9 +396,6 @@
 }
 
 .cover-img-input-div p {
-  width: 305px;
-  height: 30px;
-
   font-family: "General Sans";
   font-style: normal;
   font-weight: 400;
@@ -391,12 +408,10 @@
   display: flex;
   flex-direction: column;
   margin-bottom: 32px;
+  background-color: red;
 }
 
 .thumbnail-img h4 {
-  width: 128px;
-  height: 22px;
-
   font-family: "General Sans";
   font-style: normal;
   font-weight: 500;
@@ -408,33 +423,39 @@
 
 .input-file {
   display: flex;
+  justify-content: center;
   align-items: center;
   gap: 20px;
+  background-color: blue;
+  height: 147px;
 }
 
 .input-file div {
-  color: transparent;
-  background: #f2f6fb;
+  color: transpareSnt;
+
   border: 1px dashed #bec9d5;
   border-radius: 4px;
-  margin-bottom: 20px;
-  cursor: pointer;
+
   position: relative;
-  background: #f2f6fb;
+  background: green;
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 147px;
+  width: 147px;
+  margin-left: -147px;
 }
 
 .input-file div input {
   position: absolute;
   left: 0;
-  top: 0;
-  opacity: 0;
-  font-size: 90px;
+  top: 50px;
+  opacity: 1;
+  background-color: yellow;
+  cursor: pointer;
 }
 
-.input-file div button {
+.thumb-btn {
   font-family: "General Sans";
   font-style: normal;
   font-weight: 500;
@@ -443,9 +464,13 @@
   padding: 61px 18px;
   text-align: center;
   text-decoration-line: underline;
-  min-width: 147px;
+  background-color: yellow;
   color: #000000;
   border: none;
+
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
 .thumbnail-img p {
@@ -458,19 +483,20 @@
   color: #000000;
 }
 
-.thumbnail-preview {
+.thumbnail-preview-div {
   position: absolute;
+
   top: 0;
-  left: -147px;
-  height: 100%;
-  object-fit: cover;
+  left: 0;
+  height: 147px;
+  width: 147px;
 }
 
-.thumbnail-preview p {
-  object-fit: contain;
+.thumbnail-preview-img {
+  background-color: transparent;
 }
 
-.thumbnail-preview p img {
+.thumbnail-preview-img img {
   width: 100%;
 }
 
@@ -479,9 +505,6 @@
 }
 
 .payouts-div h3 {
-  width: 138px;
-  height: 29px;
-
   font-family: "Monument Extended";
   font-style: normal;
   font-weight: 400;
@@ -492,9 +515,6 @@
 }
 
 .payout-method {
-  width: 210px;
-  height: 22px;
-
   font-family: "General Sans";
   font-style: normal;
   font-weight: 500;
@@ -513,14 +533,17 @@
 }
 
 .payout-logo {
-  width: 132px;
-  height: 40px;
   background: #e7f2fb;
-  border: 1px solid #499df8;
+
   border-radius: 4px;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.mpesa-payout-logo {
+  padding: 0.5px 35px;
+  border: 1px solid #499df8;
 }
 
 .mpesa-logo {
@@ -539,10 +562,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.bank-2-logo {
-  height: 22px;
+  padding: 7px 35px;
+  border: 1px solid #499df8;
 }
 
 .bank-logo span {
@@ -563,9 +584,6 @@
 .personalized-url h3 {
   margin-bottom: 24px;
 
-  width: 379px;
-  height: 29px;
-
   font-family: "Monument Extended";
   font-style: normal;
   font-weight: 400;
@@ -576,9 +594,6 @@
 }
 
 .personalized-url h4 {
-  width: 31px;
-  height: 22px;
-
   font-family: "General Sans";
   font-style: normal;
   font-weight: 500;
@@ -596,8 +611,6 @@
 }
 
 .url-input-1 {
-  width: 183px;
-  height: 56px;
   background: #e6e9eb;
   border-radius: 4px;
   display: flex;
@@ -606,14 +619,13 @@
 }
 
 .url-input-1 p {
-  width: 151px;
-  height: 19px;
   font-family: "General Sans";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 22px;
   color: #2a2929;
+  padding: 18px 16px;
 }
 
 .url-input-2 {
@@ -649,15 +661,19 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 22px;
-
   text-decoration-line: underline;
-
   color: #2a2929;
   border: none;
+  background-color: #ffffff;
+  margin-bottom: 180px;
 }
 
 .preview-div {
-  margin-bottom: 80px;
+  height: 200px;
+  position: sticky;
+  z-index: 100;
+  top: 600px;
+  background-color: #ffffff;
 }
 
 .preview-btn {
