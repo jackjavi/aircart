@@ -1,0 +1,19 @@
+.p-2-underline {
+  text-decoration-line: underline;
+}
+
+.cover-img-container {
+  position: relative;
+  height: 147px;
+
+  width: 100%;
+}
+
+.cover-img-container img {
+  position: absolute;
+  top: -74.5px;
+  left: 0;
+  height: 147px;
+  object-fit: cover;
+  width: 100%;
+}

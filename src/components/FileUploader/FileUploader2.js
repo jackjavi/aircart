@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import "./FileUploader1.css";
 import "./FileUploader3.css";
+import "./FileUploader2.css";
 
 const FileUploader3 = () => {
   const [thumbImg, setThumbImg] = React.useState(null);
@@ -41,24 +42,23 @@ const FileUploader3 = () => {
     <>
       <div className="outer">
         <div className="inner inner-p-i full-width">
-          <p className="p-1">Upload Image or Video</p>
-          <p className="p-2">
-            Images should be horizontal, atleast 1280px720px
-          </p>
+          {!fileDataURL && (
+            <p className="p-1 p-2-underline">Upload Image or Video</p>
+          )}
+          {!fileDataURL && (
+            <p className="p-2 ">
+              Images should be horizontal, atleast 1280px720px
+            </p>
+          )}
+
           <input
             type="file"
             id="file-ip-1"
             accept="image/*"
             onChange={handleThumbnail}
           />
-          <div style={styles} className="inner inner-img">
-            {thumbImg && (
-              <p>
-                <span>Name: {thumbImg.name}</span>
-                <span>Type: {thumbImg.type}</span>
-                <span>Size: {thumbImg.size / 1000000}MBs</span>
-              </p>
-            )}
+          <div style={styles} className="cover-img-container">
+            {fileDataURL && <img src={fileDataURL} alt="cover-img" />}
           </div>
         </div>
       </div>

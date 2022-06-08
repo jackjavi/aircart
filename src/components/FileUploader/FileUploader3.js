@@ -42,7 +42,7 @@ const FileUploader3 = () => {
       <div className="outer">
         <div className="inner inner-p-i full-width">
           <p className="p-1">Drag your file/folder here</p>
-          <p className="p-2">Upload from your</p>
+          <p className="p-2 p-2-line">Upload from your device</p>
           <input
             type="file"
             id="file-ip-1"
