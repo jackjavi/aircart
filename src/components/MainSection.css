@@ -5,13 +5,12 @@
 
 .main-section {
   margin-top: 34px;
-  margin-left: 70px;
-  margin-right: 70px;
   margin-bottom: 100px;
   max-width: 1400px;
   display: flex;
   justify-content: space-between;
-
+  margin-left: 70px;
+  margin-right: 70px;
   position: relative;
 }
 

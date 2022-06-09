@@ -1,13 +1,1 @@
-.app {
-  background: url("./assets/background-img.png"),
-    linear-gradient(
-      90.33deg,
-      rgba(0, 0, 0, 0.78) 35.45%,
-      rgba(0, 0, 0, 0.29) 118.07%
-    );
-  background-blend-mode: overlay;
-  background-repeat: no-repeat;
-  padding-left: 10px;
-  margin-left: -10px;
-  background-size: cover;
-}
+

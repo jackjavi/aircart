@@ -18,3 +18,43 @@
   width: 100%;
   z-index: 200;
 }
+
+@media only screen and (max-width: 1200px) {
+}
+@media only screen and (max-width: 992px) {
+}
+@media only screen and (max-width: 768px) {
+}
+@media only screen and (max-width: 576px) {
+  .preview-preview {
+    position: absolute;
+
+    z-index: 200;
+    bottom: 0;
+
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .preview-div {
+    z-index: 200;
+  }
+
+  .preview-btn {
+    border: none;
+    background: #000000;
+    border-radius: 4px;
+    padding: 13px 161.5px;
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+
+    color: #ffffff;
+    width: 429px;
+    width: 100%;
+    z-index: 200;
+  }
+}

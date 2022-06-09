@@ -1,0 +1,77 @@
+@media only screen and (min-width: 1400px) {
+  .sign-up-left-container {
+    width: 746px;
+
+    background: url("../../assets/sign-up-background.png"),
+      linear-gradient(359.64deg, #000000 0.45%, rgba(0, 0, 0, 0.29) 99.83%);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 70px;
+    padding-top: 31px;
+  }
+
+  .sign-up-left-main-left {
+    margin-top: 467px;
+    padding-bottom: 111px;
+  }
+
+  .sign-up-left-main-left h3 {
+    font-family: "Monument Extended";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 51px;
+
+    color: #ffffff;
+  }
+
+  .sign-up-main-left-p-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .sign-up-main-left-p-1 {
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+    margin-bottom: 99px;
+  }
+
+  .sign-up-main-left-span-1 {
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: right;
+
+    color: #ffffff;
+  }
+
+  .sign-up-main-left-span-2 {
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+
+    text-decoration-line: underline;
+
+    color: #ffffff;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+}
+@media only screen and (max-width: 992px) {
+}
+@media only screen and (max-width: 768px) {
+}
+@media only screen and (max-width: 576px) {
+}

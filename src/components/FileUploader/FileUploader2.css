@@ -2,6 +2,13 @@
   text-decoration-line: underline;
 }
 
+@media only screen and (max-width: 576px) {
+  .p-2-underline {
+    text-decoration-line: underline;
+    margin-bottom: 8px;
+  }
+}
+
 .cover-img-container {
   position: relative;
   height: 147px;

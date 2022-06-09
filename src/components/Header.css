@@ -5,25 +5,19 @@
   justify-content: space-between;
   width: 100%;
   max-width: 1400px;
-}
-
-.header-left {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding-left: 70px;
+  padding-right: 70px;
 }
 
 .header-right {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-end;
 }
 
 .nav-links {
   display: flex;
   align-items: center;
   gap: 40px;
-  margin-right: 40px;
 }
 
 .nav-links span a {
@@ -50,4 +44,63 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 30px;
+}
+
+@media only screen and (min-width: 1400px) {
+}
+@media only screen and (max-width: 1200px) {
+}
+@media only screen and (max-width: 992px) {
+}
+@media only screen and (max-width: 768px) {
+}
+@media only screen and (max-width: 576px) {
+  .header {
+    margin-top: 31px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1400px;
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+
+  .header-right {
+    display: none;
+    align-items: flex-end;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .nav-links span a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .nav-links span a:hover {
+    text-decoration: underline;
+    text-decoration-color: blue;
+  }
+
+  .signup-btn {
+    border-radius: 4px;
+    border: 1px solid #ffffff;
+    padding: 9px 40px;
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+  }
 }

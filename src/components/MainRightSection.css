@@ -4,12 +4,6 @@
   padding-top: 70px;
 }
 
-@media only screen and (max-width: 676px) {
-  .main-right {
-    display: none;
-  }
-}
-
 .main-right h3 {
   font-family: "Monument Extended";
   font-style: normal;
@@ -41,5 +35,44 @@
 @media only screen and (min-width: 676px) {
   .main-right p {
     max-width: 593px;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+}
+@media only screen and (max-width: 1200px) {
+}
+@media only screen and (max-width: 992px) {
+}
+@media only screen and (max-width: 768px) {
+  .main-right {
+    display: none;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .main-right {
+    display: none;
+  }
+
+  .main-right h3 {
+    font-family: "Monument Extended";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 69px;
+
+    color: #ffffff;
+
+    margin-bottom: 16px;
+  }
+
+  .main-right p {
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+
+    color: #ffffff;
   }
 }

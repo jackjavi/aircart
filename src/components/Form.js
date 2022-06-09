@@ -2,14 +2,14 @@ import React from "react";
 import "./Form.css";
 import ToggleOffIcon from "@mui/icons-material/ToggleOff";
 import ToggleOnIcon from "@mui/icons-material/ToggleOn";
-import PaypalLogo from "../assets/paypal.png";
+
 import Mpesa from "../assets/mpesa-logo.png";
 import Bank1 from "../assets/bank1.png";
 import Bank2 from "../assets/bank2.png";
 import Bank3 from "../assets/bank3.png";
 import ConnectPaypal from "../assets/connect-paypal.png";
 import PreviewBtn from "./PreviewBtn";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import CoverImage from "./coverImage";
 import FileUploader3 from "./FileUploader/FileUploader3";
 
@@ -157,7 +157,14 @@ const Form = () => {
             <p className="payout-method">Choose your payout method</p>
             <p className="payout-links">
               <span className="payout-logo">
-                <img src={PaypalLogo} alt="paypal-logo" />
+                <span className="papypal-logo">
+                  <FontAwesomeIcon icon="fa-brands fa-paypal" />
+                  <FontAwesomeIcon icon="fa-brands fa-cc-paypal" />
+                  <span className="paypal-logo-text">
+                    <FontAwesomeIcon icon="fa-brands fa-paypal" />
+                    Paypal
+                  </span>
+                </span>
               </span>
               <span className="payout-logo mpesa-payout-logo">
                 <span>

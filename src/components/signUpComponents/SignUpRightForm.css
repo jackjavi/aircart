@@ -1,0 +1,75 @@
+.sign-up-email-div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.sign-up-email-div label {
+  font-family: "General Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #2a2929;
+}
+
+.sign-up-email-div input {
+  border: 1px solid rgb(192, 192, 192);
+  border-radius: 4px;
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  outline: none;
+  font-family: "General Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.sign-up-agreement-div {
+  font-family: "General Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #000000;
+  margin-bottom: 24px;
+}
+
+.sign-up-btn {
+  margin-bottom: 24px;
+}
+
+.sign-up-btn button {
+  font-family: "General Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  padding: 13px 13px;
+  color: #ffffff;
+  background: #000000;
+  border-radius: 4px;
+  border: none;
+  width: 100%;
+}
+
+.sign-up-alternate-text {
+}
+
+.sign-up-alternate-text p {
+  font-family: "General Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.sign-up-alternate-text span {
+  text-decoration-line: underline;
+}

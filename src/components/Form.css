@@ -6,12 +6,13 @@
   background-color: #ffffff;
   z-index: 200;
   bottom: 0;
-  left: 32px;
+  right: 0;
+  left: 0;
   height: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 435.5px;
+  border-radius: 16px;
 }
 
 .main-left {
@@ -694,3 +695,1416 @@
   background-color: #ffffff;
   margin-bottom: 50px;
 }
+
+@media only screen and (max-width: 1200px) {
+}
+@media only screen and (max-width: 992px) {
+}
+@media only screen and (max-width: 768px) {
+}
+
+/* MEDIA SCREEN 576PX */
+/* MEDIA SCREEN 576PX */
+/* MEDIA SCREEN 576PX */
+/* MEDIA SCREEN 576PX */
+/* MEDIA SCREEN 576PX */
+
+@media only screen and (max-width: 576px) {
+  .main-left-container {
+    position: relative;
+    max-width: 450px;
+  }
+  .preview-preview {
+    position: absolute;
+    background-color: #ffffff;
+    z-index: 200;
+    bottom: 0;
+    right: 32px;
+    left: 32px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .main-left {
+    height: 763px;
+    background: #ffffff;
+    border-radius: 16px;
+    overflow-y: scroll;
+    max-width: 500px;
+  }
+
+  .main-left::-webkit-scrollbar {
+    display: none;
+  }
+
+  .main-left {
+    scrollbar-width: none;
+  }
+
+  .product-info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .product-info-content {
+    padding: 32px;
+  }
+
+  .product-info-header h3 {
+    font-family: "Monument Extended";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 45px;
+    margin-bottom: 8px;
+  }
+
+  .product-info-header p {
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 32px;
+  }
+
+  .product-info-header hr {
+    border: 1px solid #96989a;
+    margin-bottom: 32px;
+  }
+
+  .product-info h3 {
+    font-family: "Monument Extended";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #2a2929;
+    margin-bottom: 24px;
+  }
+
+  .email-address-div {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+
+  .email-address-div input {
+    width: 100%;
+
+    border: 1px solid rgb(192, 192, 192);
+    border-radius: 4px;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    outline: none;
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .email-address-div p {
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+
+    color: #000000;
+  }
+
+  .email-desc-top {
+    margin-top: -5px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .span-2 {
+    text-decoration-line: underline;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+
+  .product-file-label {
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 8px;
+    color: #2a2929;
+  }
+
+  .product-file-div {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #f2f6fb;
+    border: 1px dashed #bec9d5;
+    border-radius: 4px;
+
+    margin-bottom: 20px;
+
+    z-index: 60;
+  }
+  .product-file-div input[type="file"] {
+    left: 0;
+    top: 0;
+
+    opacity: 0;
+    position: absolute;
+    font-size: 90px;
+  }
+
+  .btn-drag {
+    padding-top: 41px;
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    background: #f2f6fb;
+    color: #000000;
+
+    border: none;
+    text-decoration-line: underline;
+    margin-bottom: 4px;
+  }
+
+  .btn-upload {
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+
+    text-decoration-line: underline;
+    background: #f2f6fb;
+    color: #000000;
+    border: none;
+    padding-bottom: 41px;
+  }
+
+  .product-file-div p {
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    background: #f2f6fb;
+    color: #000000;
+  }
+
+  .product-name-div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .product-name-label {
+    height: 22px;
+    margin-bottom: 8px;
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .product-name-input {
+    margin-bottom: 16px;
+    border: 1px solid rgb(192, 192, 192);
+    border-radius: 4px;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    outline: none;
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .product-name-input::placeholder {
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #636363;
+  }
+
+  .product-desc {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+  }
+
+  .product-desc-label {
+    margin-bottom: 8px;
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #2a2929;
+  }
+
+  .product-desc-name {
+    font-size: 16px;
+    border: 1px solid rgb(192, 192, 192);
+    border-radius: 4px;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+    padding-left: 10px;
+    outline: none;
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .product-desc-name::placeholder {
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #636363;
+  }
+
+  .product-price-div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .product-price-label {
+    height: 1px;
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #2a2929;
+  }
+
+  .product-price-input-div {
+    margin-top: 8px;
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    border: 1px solid rgb(192, 192, 192);
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  .product-price-input-div p {
+    color: #636363;
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .product-price-input {
+    outline: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    padding-left: 8px;
+    width: 100%;
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .product-price-input::placeholder {
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    padding-left: 10px;
+    color: #636363;
+  }
+
+  .free-product {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 32px;
+  }
+
+  .toggleIcons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .free-product-desc {
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #2a2929;
+  }
+
+  .hr {
+    border: 1px solid #96989a;
+    margin-bottom: 32px;
+  }
+
+  .customize-div h3 {
+    font-family: "Monument Extended";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #2a2929;
+    margin-bottom: 24px;
+  }
+
+  .customize-div h4 {
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #2a2929;
+    margin-bottom: 8px;
+  }
+
+  .cover-img-input-div {
+    background: #f2f6fb;
+    border: 1px dashed #bec9d5;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 24px;
+  }
+
+  .cover-img-input::-webkit-file-upload-button {
+    visibility: hidden;
+  }
+
+  .cover-img-input::before {
+    content: "Upload image or video";
+    color: black;
+    display: inline-block;
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+
+    text-decoration-line: underline;
+
+    color: #000000;
+  }
+
+  .cover-img-input-div p {
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: #000000;
+  }
+
+  .thumbnail-img {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 32px;
+    background-color: red;
+  }
+
+  .thumbnail-img h4 {
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #2a2929;
+  }
+
+  .input-file {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: blue;
+    height: 147px;
+  }
+
+  .input-file div {
+    color: transpareSnt;
+
+    border: 1px dashed #bec9d5;
+    border-radius: 4px;
+
+    position: relative;
+    background: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 147px;
+    width: 147px;
+    margin-left: -147px;
+  }
+
+  .input-file div input {
+    position: absolute;
+    left: 0;
+    top: 50px;
+    opacity: 1;
+    background-color: yellow;
+    cursor: pointer;
+  }
+
+  .thumb-btn {
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 61px 18px;
+    text-align: center;
+    text-decoration-line: underline;
+    background-color: yellow;
+    color: #000000;
+    border: none;
+
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  .thumbnail-img p {
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #000000;
+  }
+
+  .thumbnail-preview-div {
+    position: absolute;
+
+    top: 0;
+    left: 0;
+    height: 147px;
+    width: 147px;
+  }
+
+  .thumbnail-preview-img {
+    background-color: transparent;
+  }
+
+  .thumbnail-preview-img img {
+    width: 100%;
+  }
+
+  .payouts-div {
+    margin-bottom: 32px;
+  }
+
+  .payouts-div h3 {
+    font-family: "Monument Extended";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 24px;
+    color: #2a2929;
+  }
+
+  .payout-method {
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #2a2929;
+    margin-bottom: 16px;
+  }
+
+  .payout-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+
+  .payout-logo {
+    background: #fbeee7;
+
+    border-radius: 4px;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+  }
+
+  .paypal-logo-text {
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 15px 20px;
+    color: #1260d5;
+  }
+
+  .mpesa-payout-logo {
+    padding: 0.5px 15px;
+    border: 1px solid #499df8;
+  }
+
+  .mpesa-logo {
+    margin-top: 9px;
+  }
+
+  .side-a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8px;
+  }
+
+  .side-b {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 15px;
+    border: 1px solid #499df8;
+  }
+
+  .bank-logo span {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .connect-paypal-img {
+    margin-bottom: 32px;
+  }
+
+  .personalized-url {
+    margin-top: 32px;
+
+    margin-bottom: 50px;
+  }
+
+  .personalized-url h3 {
+    margin-bottom: 24px;
+
+    font-family: "Monument Extended";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #2a2929;
+  }
+
+  .personalized-url h4 {
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #2a2929;
+  }
+
+  .url-input {
+    display: flex;
+    margin-bottom: 8px;
+    border: 1px solid #96989a;
+    border-radius: 2px;
+  }
+
+  .url-input-1 {
+    background: #e6e9eb;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .url-input-1 p {
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #2a2929;
+    padding: 18px 16px;
+  }
+
+  .url-input-2 {
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+  }
+
+  .url-input-2 input {
+    border: none;
+    outline: none;
+
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    width: 190px;
+  }
+
+  .url-input-2 input::placeholder {
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #adb3b8;
+  }
+
+  .copy-url {
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #2a2929;
+    border: none;
+    background-color: #ffffff;
+    margin-bottom: 50px;
+  }
+}
+/* MEDIA SCREEN 576PX */
+
+/* MEDIA SCREEN 480PX */
+/* MEDIA SCREEN 480PX */
+/* MEDIA SCREEN 480PX */
+/* MEDIA SCREEN 480PX */
+/* MEDIA SCREEN 480PX */
+
+@media only screen and (max-width: 480px) {
+  .main-left-container {
+    position: relative;
+    max-width: 450px;
+  }
+
+  .main-left {
+    height: 763px;
+    background: #ffffff;
+    border-radius: 16px;
+    overflow-y: scroll;
+    max-width: 500px;
+  }
+
+  .main-left::-webkit-scrollbar {
+    display: none;
+  }
+
+  .main-left {
+    scrollbar-width: none;
+  }
+
+  .product-info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .product-info-content {
+    padding: 32px;
+  }
+
+  .product-info-header h3 {
+    font-family: "Monument Extended";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 45px;
+    margin-bottom: 8px;
+  }
+
+  .product-info-header p {
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 32px;
+  }
+
+  .product-info-header hr {
+    border: 1px solid #96989a;
+    margin-bottom: 32px;
+  }
+
+  .product-info h3 {
+    font-family: "Monument Extended";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #2a2929;
+    margin-bottom: 24px;
+  }
+
+  .email-address-div {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+
+  .email-address-div input {
+    width: 100%;
+
+    border: 1px solid rgb(192, 192, 192);
+    border-radius: 4px;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    outline: none;
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .email-address-div p {
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+
+    color: #000000;
+  }
+
+  .email-desc-top {
+    margin-top: -5px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .span-2 {
+    text-decoration-line: underline;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+
+  .product-file-label {
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 8px;
+    color: #2a2929;
+  }
+
+  .product-file-div {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #f2f6fb;
+    border: 1px dashed #bec9d5;
+    border-radius: 4px;
+
+    margin-bottom: 20px;
+
+    z-index: 60;
+  }
+  .product-file-div input[type="file"] {
+    left: 0;
+    top: 0;
+
+    opacity: 0;
+    position: absolute;
+    font-size: 90px;
+  }
+
+  .btn-drag {
+    padding-top: 41px;
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    background: #f2f6fb;
+    color: #000000;
+
+    border: none;
+    text-decoration-line: underline;
+    margin-bottom: 4px;
+  }
+
+  .btn-upload {
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+
+    text-decoration-line: underline;
+    background: #f2f6fb;
+    color: #000000;
+    border: none;
+    padding-bottom: 41px;
+  }
+
+  .product-file-div p {
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    background: #f2f6fb;
+    color: #000000;
+  }
+
+  .product-name-div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .product-name-label {
+    height: 22px;
+    margin-bottom: 8px;
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .product-name-input {
+    margin-bottom: 16px;
+    border: 1px solid rgb(192, 192, 192);
+    border-radius: 4px;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    outline: none;
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .product-name-input::placeholder {
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #636363;
+  }
+
+  .product-desc {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+  }
+
+  .product-desc-label {
+    margin-bottom: 8px;
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #2a2929;
+  }
+
+  .product-desc-name {
+    font-size: 16px;
+    border: 1px solid rgb(192, 192, 192);
+    border-radius: 4px;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+    padding-left: 10px;
+    outline: none;
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .product-desc-name::placeholder {
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #636363;
+  }
+
+  .product-price-div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .product-price-label {
+    height: 1px;
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #2a2929;
+  }
+
+  .product-price-input-div {
+    margin-top: 8px;
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    border: 1px solid rgb(192, 192, 192);
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  .product-price-input-div p {
+    color: #636363;
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .product-price-input {
+    outline: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    padding-left: 8px;
+    width: 100%;
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .product-price-input::placeholder {
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    padding-left: 10px;
+    color: #636363;
+  }
+
+  .free-product {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 32px;
+  }
+
+  .toggleIcons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .free-product-desc {
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #2a2929;
+  }
+
+  .hr {
+    border: 1px solid #96989a;
+    margin-bottom: 32px;
+  }
+
+  .customize-div h3 {
+    font-family: "Monument Extended";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #2a2929;
+    margin-bottom: 24px;
+  }
+
+  .customize-div h4 {
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #2a2929;
+    margin-bottom: 8px;
+  }
+
+  .cover-img-input-div {
+    background: #f2f6fb;
+    border: 1px dashed #bec9d5;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 24px;
+  }
+
+  .cover-img-input::-webkit-file-upload-button {
+    visibility: hidden;
+  }
+
+  .cover-img-input::before {
+    content: "Upload image or video";
+    color: black;
+    display: inline-block;
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+
+    text-decoration-line: underline;
+
+    color: #000000;
+  }
+
+  .cover-img-input-div p {
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: #000000;
+  }
+
+  .thumbnail-img {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 32px;
+    background-color: red;
+  }
+
+  .thumbnail-img h4 {
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #2a2929;
+  }
+
+  .input-file {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: blue;
+    height: 147px;
+  }
+
+  .input-file div {
+    color: transpareSnt;
+
+    border: 1px dashed #bec9d5;
+    border-radius: 4px;
+
+    position: relative;
+    background: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 147px;
+    width: 147px;
+    margin-left: -147px;
+  }
+
+  .input-file div input {
+    position: absolute;
+    left: 0;
+    top: 50px;
+    opacity: 1;
+    background-color: yellow;
+    cursor: pointer;
+  }
+
+  .thumb-btn {
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 61px 18px;
+    text-align: center;
+    text-decoration-line: underline;
+    background-color: yellow;
+    color: #000000;
+    border: none;
+
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  .thumbnail-img p {
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #000000;
+  }
+
+  .thumbnail-preview-div {
+    position: absolute;
+
+    top: 0;
+    left: 0;
+    height: 147px;
+    width: 147px;
+  }
+
+  .thumbnail-preview-img {
+    background-color: transparent;
+  }
+
+  .thumbnail-preview-img img {
+    width: 100%;
+  }
+
+  .payouts-div {
+    margin-bottom: 32px;
+  }
+
+  .payouts-div h3 {
+    font-family: "Monument Extended";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 24px;
+    color: #2a2929;
+  }
+
+  .payout-method {
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #2a2929;
+    margin-bottom: 16px;
+  }
+
+  .payout-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+
+  .payout-logo {
+    background: #fbeee7;
+
+    border-radius: 4px;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+  }
+
+  .paypal-logo-text {
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 13px 20px;
+    color: #1260d5;
+  }
+
+  .mpesa-payout-logo {
+    padding: 0.5px 15px;
+    border: 1px solid #499df8;
+  }
+
+  .mpesa-logo {
+    margin-top: 9px;
+  }
+
+  .side-a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8px;
+  }
+
+  .side-b {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 15px;
+    border: 1px solid #499df8;
+  }
+
+  .bank-logo span {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .connect-paypal-img {
+    margin-bottom: 32px;
+  }
+
+  .personalized-url {
+    margin-top: 32px;
+
+    margin-bottom: 50px;
+  }
+
+  .personalized-url h3 {
+    margin-bottom: 24px;
+
+    font-family: "Monument Extended";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #2a2929;
+  }
+
+  .personalized-url h4 {
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #2a2929;
+  }
+
+  .url-input {
+    display: flex;
+    margin-bottom: 8px;
+    border: 1px solid #96989a;
+    border-radius: 2px;
+  }
+
+  .url-input-1 {
+    background: #e6e9eb;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .url-input-1 p {
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #2a2929;
+    padding: 18px 16px;
+  }
+
+  .url-input-2 {
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+  }
+
+  .url-input-2 input {
+    border: none;
+    outline: none;
+
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    width: 190px;
+  }
+
+  .url-input-2 input::placeholder {
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #adb3b8;
+  }
+
+  .copy-url {
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #2a2929;
+    border: none;
+    background-color: #ffffff;
+    margin-bottom: 50px;
+  }
+}
+/* MEDIA SCREEN 480PX */
