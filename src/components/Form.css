@@ -17,7 +17,7 @@
 }
 
 .main-left {
-  height: 763px;
+  height: 120vh;
   background: #ffffff;
   border-radius: 16px;
   overflow-y: scroll;
@@ -764,7 +764,7 @@ input[type="number"] {
 @media only screen and (max-width: 576px) {
   .main-left-container {
     position: relative;
-    max-width: 450px;
+    width: 100vw;
   }
   .preview-preview {
     position: absolute;
