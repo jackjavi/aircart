@@ -2,16 +2,10 @@ import React from "react";
 import "./Form.css";
 import ToggleOffIcon from "@mui/icons-material/ToggleOff";
 import ToggleOnIcon from "@mui/icons-material/ToggleOn";
-
-import Mpesa from "../assets/mpesa-logo.png";
-import Bank1 from "../assets/bank1.png";
-import Bank2 from "../assets/bank2.png";
-import Bank3 from "../assets/bank3.png";
-import ConnectPaypal from "../assets/connect-paypal.png";
 import PreviewBtn from "./PreviewBtn";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import CoverImage from "./coverImage";
-import FileUploader3 from "./FileUploader/FileUploader3";
+import CoverImage from "./formComponents/coverImage";
+import FileUploader3 from "./formComponents/FileUploader/FileUploader3";
+import Payouts from "./formComponents/Payouts";
 
 const Form = () => {
   const [toggle, setToggle] = React.useState(false);
@@ -45,6 +39,7 @@ const Form = () => {
   const handleToggleOff = () => {
     setPrice({ productPrice: 0 });
   };
+
   return (
     <div className="main-left-container">
       <div className="preview-preview">
@@ -152,41 +147,7 @@ const Form = () => {
           </div>
 
           <CoverImage />
-          <div className="payouts-div">
-            <h3>Payouts</h3>
-            <p className="payout-method">Choose your payout method</p>
-            <p className="payout-links">
-              <span className="payout-logo">
-                <span className="papypal-logo">
-                  <FontAwesomeIcon icon="fa-brands fa-paypal" />
-                  <FontAwesomeIcon icon="fa-brands fa-cc-paypal" />
-                  <span className="paypal-logo-text">
-                    <FontAwesomeIcon icon="fa-brands fa-paypal" />
-                    Paypal
-                  </span>
-                </span>
-              </span>
-              <span className="payout-logo mpesa-payout-logo">
-                <span>
-                  <img className="mpesa-logo" src={Mpesa} alt="mpesa-logo" />
-                </span>
-              </span>
-
-              <span className="payout-logo side-b">
-                <span className="side-a">
-                  <img src={Bank3} alt="bank-logo" />
-                  <img src={Bank1} alt="bank-logo" />
-                </span>
-
-                <img className="bank-2-logo" src={Bank2} alt="bank-logo" />
-              </span>
-            </p>
-            <img
-              src={ConnectPaypal}
-              className="connect-paypal-img"
-              alt="connect-paypal"
-            />
-          </div>
+          <Payouts />
           <hr className="hr" />
 
           <div className="personalized-url">
@@ -194,7 +155,7 @@ const Form = () => {
             <h4>URL</h4>
             <div className="url-input">
               <div className="url-input-1">
-                <p>avatarroku.aircart.app/</p>
+                <p>aircart.app/</p>
               </div>
               <div className="url-input-2">
                 <input

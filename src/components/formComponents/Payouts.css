@@ -1,0 +1,81 @@
+.payout-modal-paypal-div {
+  width: 100%;
+}
+
+.payout-modal-mpesa-div {
+  width: 100%;
+}
+
+.payout-modal-bank-div {
+  width: 100%;
+}
+
+.payout-modal-div {
+  width: 100%;
+}
+
+.payout-modal-div div {
+  display: flex;
+  flex-direction: column;
+}
+
+.account-div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.account-div label {
+  font-family: "General Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #2a2929;
+  margin-bottom: 8px;
+}
+
+.account-div input {
+  border: 1px solid rgb(192, 192, 192);
+  border-radius: 4px;
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  outline: none;
+  font-family: "General Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.bank-option {
+  border: 1px solid rgb(192, 192, 192);
+  border-radius: 4px;
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  outline: none;
+  font-family: "General Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.option-option {
+  border: 1px solid rgb(192, 192, 192);
+  border-radius: 4px;
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  outline: none;
+  font-family: "General Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+}
