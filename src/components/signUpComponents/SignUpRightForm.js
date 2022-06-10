@@ -1,12 +1,30 @@
 import React from "react";
 import "./SignUpRightForm.css";
+import axios from "axios";
 
 const SignUpRightForm = () => {
+  const [signUp, setSignUp] = React.useState({
+    email: "",
+    subject: "getCode",
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setSignUp({ [name]: value, subject: "getCode" });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    axios
+      .post("http://192.168.0.116:5001", signUp)
+      .then((res) => console.log(res.data));
+    console.log(signUp);
+  };
   return (
-    <form>
+    <form onSubmit={handleSubmit}>
       <div className="sign-up-email-div">
         <label htmlFor="email">Email</label>
-        <input type="email" name="email" id="email" />
+        <input onChange={handleChange} type="email" name="email" id="email" />
       </div>
 
       <div className="sign-up-email-div">
@@ -27,7 +45,7 @@ const SignUpRightForm = () => {
       </div>
 
       <div className="sign-up-btn">
-        <button>Create aircart account</button>
+        <button type="submit">Create aircart account</button>
       </div>
 
       <div className="sign-up-alternate-text">

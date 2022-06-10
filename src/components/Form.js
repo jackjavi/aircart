@@ -2,15 +2,17 @@ import React from "react";
 import "./Form.css";
 import ToggleOffIcon from "@mui/icons-material/ToggleOff";
 import ToggleOnIcon from "@mui/icons-material/ToggleOn";
-import PreviewBtn from "./PreviewBtn";
 import CoverImage from "./formComponents/coverImage";
 import FileUploader3 from "./formComponents/FileUploader/FileUploader3";
 import Payouts from "./formComponents/Payouts";
+import "./PreviewBtn.css";
+import axios from "axios";
 
 const Form = () => {
   const [toggle, setToggle] = React.useState(false);
   const [sellerData, setSellerData] = React.useState([]);
   const [price, setPrice] = React.useState({ productPrice: 10 });
+  const [email, setEmail] = React.useState({ email: "Knairo@gmail.com" });
 
   React.useEffect(() => {
     const items = localStorage.getItem("sellerData");
@@ -40,10 +42,28 @@ const Form = () => {
     setPrice({ productPrice: 0 });
   };
 
+  const handleEmailChange = (e) => {
+    const { name, value } = e.target;
+    setEmail({ [name]: value });
+  };
+
+  const handleSubmitEmail = (e) => {
+    e.preventDefault();
+    axios.post("http://192.168.0.116:5001", email);
+  };
+
   return (
-    <div className="main-left-container">
+    <form className="main-left-container">
       <div className="preview-preview">
-        <PreviewBtn />
+        <div className="preview-div ">
+          <button
+            onClick={handleSubmitEmail}
+            type="submit"
+            className="preview-btn"
+          >
+            Preview
+          </button>
+        </div>
       </div>
       <div className="main-left">
         <div className="product-info-content">
@@ -60,8 +80,8 @@ const Form = () => {
             <div className="email-address-div">
               <input
                 type="text"
-                name="productName"
-                onChange={handleChange}
+                name="email"
+                onChange={handleEmailChange}
                 id="product-name"
                 className="product-name-input"
                 placeholder="Email address"
@@ -170,7 +190,7 @@ const Form = () => {
           </div>
         </div>
       </div>
-    </div>
+    </form>
   );
 };
 
