@@ -1,12 +1,10 @@
 .header {
-  margin-top: 31px;
+  margin-top: 28px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
-
-  box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.04);
-  justify-content: space-between;
+  height: 16vh;
 }
 
 .aircart-logo-dark {
@@ -75,17 +73,14 @@
 }
 @media only screen and (max-width: 576px) {
   .header {
-    margin-top: 31px;
+    margin-top: 11px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
-
-    padding-left: 16px;
-    padding-right: 16px;
-  }
-
-  .header-left {
+    height: 15vh;
+    margin-left: 40px;
+    margin-right: 40px;
   }
 
   .aircart-logo-light {
@@ -94,22 +89,28 @@
 
   .aircart-logo-dark {
     display: inline-block;
+    height: 20px;
+    margin-top: 12px;
   }
 
   .header-right {
     margin-right: 16px;
+    height: 100%;
+    width: 100%;
   }
 
   .menu-div {
     display: block;
     border: none;
+
+    width: 50px;
   }
 
   .mobile-nav-links {
     display: none;
     position: absolute;
-    top: 40px;
-    right: 50px;
+    top: 10%;
+    right: 20%;
 
     flex-direction: column;
     background-color: #e7e7e7;
@@ -145,5 +146,30 @@
     font-size: 16px;
     line-height: 30px;
     background-color: #e7e7e7;
+  }
+  @media only screen and (min-width: 600px) {
+    .main-section {
+      gap: 50px;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    .main-section {
+      gap: 50px;
+    }
+  }
+
+  @media only screen and (min-width: 992px) {
+    @media only screen and (min-width: 768px) {
+      .main-section {
+        gap: 70px;
+      }
+    }
+  }
+
+  @media only screen and (min-width: 1200px) {
+    .main-section {
+      gap: 90px;
+    }
   }
 }

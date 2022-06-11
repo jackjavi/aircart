@@ -42,6 +42,9 @@ const FileUploader1 = () => {
 
   return (
     <>
+      <div className="cover-img">
+        <h4>Thumbnail Image</h4>
+      </div>
       <div className="outer">
         <div className="inner inner-p-i">
           <p>Upload Image</p>

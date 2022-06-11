@@ -10,6 +10,7 @@ const CoverImage = () => {
         <h4>Cover Image</h4>
       </div>
       <FileUploader2 />
+
       <FileUploader1 />
       <hr className="hr" />
     </div>

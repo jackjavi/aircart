@@ -6,21 +6,22 @@
   position: absolute;
   background-color: #ffffff;
   z-index: 200;
-  bottom: -110px;
-  right: 0;
-  left: 0;
+  bottom: 0;
 
+  left: 12.5%;
+  padding: 20px 0;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 16px;
+  width: 75%;
 }
 
 .preview-btn {
   border: none;
   background: #000000;
   border-radius: 4px;
-  padding: 13px 181.5px;
+  padding: 13px 131.5px;
   font-family: "General Sans";
   font-style: normal;
   font-weight: 500;
@@ -45,32 +46,37 @@
     background-color: #ffffff;
     z-index: 200;
     bottom: 0;
-    right: 0;
     left: 0;
     height: 100px;
+    width: 100%;
+
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 16px;
   }
 
   .preview-div {
     z-index: 200;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .preview-btn {
     border: none;
     background: #000000;
-    border-radius: 4px;
-    padding: 13px 161.5px;
+    border-radius: 2px;
+
     font-family: "General Sans";
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
 
     color: #ffffff;
-    width: 429px;
+
     width: 100%;
+    margin-left: 16px;
+    margin-right: 16px;
     z-index: 200;
   }
 }

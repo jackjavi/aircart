@@ -1,7 +1,7 @@
 .outer {
   width: 100%;
   position: relative;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 
 .inner {
@@ -18,14 +18,14 @@
 .inner input {
   z-index: 50;
   opacity: 0;
-  font-size: 120px;
-  margin-left: 30px;
+  font-size: 60px;
+  margin-left: 15px;
 }
 
 .inner-p-i {
   background: #f2f6fb;
   border: 1px dashed #bec9d5;
-  border-radius: 4px;
+  border-radius: 2px;
   display: flex;
   flex-direction: column;
 
@@ -38,8 +38,8 @@
   font-family: "General Sans";
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 10px;
+  line-height: 14px;
 
   width: 100%;
   color: #000000;
@@ -66,21 +66,21 @@
 
   background: #f2f6fb;
   border: 1px dashed #bec9d5;
-  border-radius: 4px;
+  border-radius: 2px;
 }
 
 .thumb-img-text {
   position: absolute;
-  top: 47px;
-  left: 180px;
+  top: 10px;
+  left: 110px;
 }
 
 .thumb-img-text p {
   font-family: "General Sans";
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 10px;
+  line-height: 14px;
 
   color: #000000;
 }

@@ -12,32 +12,6 @@
   position: relative;
 }
 
-@media only screen and (min-width: 600px) {
-  .main-section {
-    gap: 50px;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  .main-section {
-    gap: 50px;
-  }
-}
-
-@media only screen and (min-width: 992px) {
-  @media only screen and (min-width: 768px) {
-    .main-section {
-      gap: 70px;
-    }
-  }
-}
-
-@media only screen and (min-width: 1200px) {
-  .main-section {
-    gap: 90px;
-  }
-}
-
 @media only screen and (min-width: 1400px) {
 }
 
@@ -49,7 +23,7 @@
 }
 @media only screen and (max-width: 576px) {
   .main-section {
-    margin-top: 34px;
+    margin-top: 5px;
 
     width: 100%;
     display: flex;

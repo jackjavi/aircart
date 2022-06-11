@@ -69,9 +69,73 @@
 }
 
 @media only screen and (max-width: 576px) {
-  .inner-img div {
+  .product-file-label {
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 14px;
+    margin-bottom: 5px;
+    color: #2a2929;
   }
 
-  .inner-img div span {
+  .full-width {
+    width: 100%;
+
+    position: relative;
+  }
+
+  .p-1 {
+    margin-top: -25px;
+    text-decoration-line: none;
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #000000;
+  }
+
+  .p-2-2 {
+    margin-bottom: -25px;
+
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    text-decoration-line: underline;
+    color: #000000;
+  }
+
+  .inner-img {
+    width: 100%;
+    position: absolute;
+  }
+
+  .inner-img div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+    text-decoration: none;
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 14px;
+    color: #000000;
+  }
+
+  .inner input {
+    cursor: pointer;
+  }
+
+  .inner-img p span {
+    padding: 5px;
   }
 }

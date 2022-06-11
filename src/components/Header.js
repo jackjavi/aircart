@@ -21,7 +21,7 @@ const Header = () => {
       <HeaderLeft />
       <HeaderRight style={style} />
       <button onClick={handleMenuClick} className="menu-div">
-        <MenuIcon />
+        <MenuIcon fontSize="small" />
       </button>
     </header>
   );
