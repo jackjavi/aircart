@@ -82,6 +82,18 @@
 }
 
 .payout-connect-modal {
+  width: 100%;
+}
+
+.payout-modal-paypal-div {
+  width: 100%;
+}
+.payout-modal-mpesa-div {
+  width: 100%;
+}
+
+.payout-modal-bank-div {
+  width: 100%;
 }
 
 .connect-paypal-img {
@@ -89,24 +101,25 @@
   display: none;
 }
 
-.payout-modal-mpesa-div {
+.account-div {
   display: flex;
   flex-direction: column;
   gap: 8px;
   margin-bottom: 16px;
+  width: 100%;
 }
 
-.payout-modal-mpesa-div label {
+.account-div label {
   font-family: "General Sans";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 22px;
-
+  width: 100%;
   color: #2a2929;
 }
 
-.payout-modal-mpesa-div input {
+.account-div input {
   border: 1px solid rgb(192, 192, 192);
   border-radius: 4px;
   box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
@@ -119,38 +132,22 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
-}
-
-.account-div {
-  display: flex;
-  flex-direction: column;
-}
-
-.account-div label {
-  font-family: "General Sans";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 22px;
-  color: #2a2929;
-}
-
-.account-div input {
-  font-family: "General Sans";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 22px;
-  padding-left: 10px;
+  width: 100%;
 }
 
 .account-div select {
+  border: 1px solid rgb(192, 192, 192);
+  border-radius: 4px;
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  outline: none;
   font-family: "General Sans";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
-  line-height: 22px;
-  padding-left: 10px;
+  line-height: 30px;
 }
 
 input::-webkit-outer-spin-button,

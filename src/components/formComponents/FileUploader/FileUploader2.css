@@ -1,12 +1,13 @@
 .p-2-underline {
   text-decoration-line: underline;
+  margin-bottom: 8px;
+}
+
+.p-2 {
+  text-decoration-line: none;
 }
 
 @media only screen and (max-width: 576px) {
-  .p-2-underline {
-    text-decoration-line: underline;
-    margin-bottom: 8px;
-  }
 }
 
 .cover-img-container {
