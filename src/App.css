@@ -1,1 +1,8 @@
+@font-face {
+  font-family: General Sans;
+  src: url("./Fonts/genera/Genera-AltLight.ttf");
+}
 
+* {
+  overflow-x: hidden;
+}

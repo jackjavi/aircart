@@ -39,6 +39,9 @@ const FileUploader3 = () => {
 
   return (
     <>
+      <label htmlFor="product-file" className="product-file-label">
+        Add your file
+      </label>
       <div className="outer">
         <div className="inner inner-p-i full-width">
           <p className="p-1">Drag your file/folder here</p>
@@ -51,11 +54,11 @@ const FileUploader3 = () => {
           />
           <div style={styles} className="inner inner-img">
             {thumbImg && (
-              <p>
+              <div>
                 <span>Name: {thumbImg.name}</span>
                 <span>Type: {thumbImg.type}</span>
                 <span>Size: {thumbImg.size / 1000000}MBs</span>
-              </p>
+              </div>
             )}
           </div>
         </div>

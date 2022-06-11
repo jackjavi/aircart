@@ -4,11 +4,20 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  max-width: 1400px;
   padding-left: 70px;
   padding-right: 70px;
+  box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.04);
+  justify-content: space-between;
+  max-width: 1500px;
 }
 
+.aircart-logo-dark {
+  display: none;
+}
+
+.aircart-logo-light {
+  display: inline-block;
+}
 .header-right {
   display: flex;
   align-items: flex-end;
@@ -33,6 +42,14 @@
 .nav-links span a:hover {
   text-decoration: underline;
   text-decoration-color: blue;
+}
+
+.mobile-nav-links {
+  display: none;
+}
+
+.menu-div {
+  display: none;
 }
 
 .signup-btn {
@@ -65,25 +82,47 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    max-width: 1400px;
-    padding-left: 70px;
-    padding-right: 70px;
+
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .header-left {
+  }
+
+  .aircart-logo-light {
+    display: none;
+  }
+
+  .aircart-logo-dark {
+    display: inline-block;
   }
 
   .header-right {
-    display: none;
-    align-items: flex-end;
+    margin-right: 16px;
   }
 
-  .nav-links {
+  .menu-div {
+    display: block;
+    border: none;
+  }
+
+  .mobile-nav-links {
     display: none;
+    position: absolute;
+    top: 40px;
+    right: 50px;
+
     flex-direction: column;
-    align-items: center;
-    gap: 40px;
+    background-color: #e7e7e7;
+    z-index: 100;
+    gap: 10px;
+    border-radius: 4px;
+    padding: 10px 8px;
   }
 
-  .nav-links span a {
-    color: #ffffff;
+  .mobile-nav-links span a {
+    color: #000000;
     text-decoration: none;
     font-family: "General Sans";
     font-style: normal;
@@ -92,19 +131,21 @@
     line-height: 30px;
   }
 
-  .nav-links span a:hover {
-    text-decoration: underline;
-    text-decoration-color: blue;
+  .mobile-nav-links span a:hover {
+    opacity: 0.7;
+    text-decoration-line: underline;
   }
 
   .signup-btn {
+    display: none;
     border-radius: 4px;
-    border: 1px solid #ffffff;
-    padding: 9px 40px;
+    border: 1px solid #e7e7e7;
+    padding: 0 40px;
     font-family: "General Sans";
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 30px;
+    background-color: #e7e7e7;
   }
 }

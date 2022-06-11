@@ -94,17 +94,17 @@ const Payouts = () => {
       <p className="payout-method">Choose your payout method</p>
       <p className="payout-links">
         <button
+          type="button"
           style={isPaypalClicked}
           onClick={handlePaypal}
           className="payout-logo"
         >
-          <span className="papypal">
-            <span className="paypal-logo-text">
-              <img className="paypal-logo" src={Paypal} alt="paypal-logo" />
-            </span>
+          <span className="paypal-logo-text">
+            <img src={Paypal} alt="paypal-logo" />
           </span>
         </button>
         <button
+          type="button"
           style={isMpesaClicked}
           onClick={handleMpesa}
           className="payout-logo mpesa-payout-logo"
@@ -115,6 +115,7 @@ const Payouts = () => {
         </button>
 
         <button
+          type="button"
           style={isBankClicked}
           onClick={handleBank}
           className="payout-logo side-b"
@@ -157,11 +158,9 @@ const Payouts = () => {
           </div>
 
           <div className="account-div">
-            <label for="bank-option">Bank</label>
+            <label htmlFor="bank-option">Bank</label>
             <select className="bank-option" id="bank-option" name="bankOption">
-              <option className="option-option" value="">
-                --choose bank--
-              </option>
+              <option value="">--choose bank--</option>
               <option value="kcb">KCB</option>
               <option value="cooperative">COOPERATIVE</option>
               <option value="equity">EQUITY</option>

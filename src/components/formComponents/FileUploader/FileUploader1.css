@@ -1,13 +1,12 @@
 .outer {
-  height: 147px;
   width: 100%;
   position: relative;
   margin-bottom: 30px;
 }
 
 .inner {
-  height: 147px;
-  width: 147px;
+  height: 100%;
+  width: 40%;
 
   position: absolute;
 
@@ -51,19 +50,20 @@
 
 .inner-img {
   z-index: 51;
-  width: 147px;
-  height: 147px;
+  height: 100%;
+  width: 100%;
   object-fit: contain;
-  position: relative;
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
 .inner-img img {
   position: absolute;
-  height: 147px;
+  height: 100%;
   object-fit: contain;
-  width: 147px;
-  left: 0;
-  top: -147px;
+  width: 40%;
+
   background: #f2f6fb;
   border: 1px dashed #bec9d5;
   border-radius: 4px;

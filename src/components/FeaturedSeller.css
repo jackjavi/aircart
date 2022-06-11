@@ -11,7 +11,7 @@
 .featured-product-link {
   position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: 96px;
 }
 
 .featured-product-link p {
@@ -40,4 +40,21 @@
   text-decoration-line: underline;
 
   color: #ffffff;
+}
+@media only screen and (max-width: 1400px) {
+}
+@media only screen and (max-width: 1200px) {
+}
+@media only screen and (max-width: 992px) {
+}
+@media only screen and (max-width: 768px) {
+}
+@media only screen and (max-width: 576px) {
+  .featured-container {
+    background-color: wheat;
+  }
+
+  .featured-product-link {
+    display: none;
+  }
 }

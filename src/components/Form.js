@@ -93,10 +93,6 @@ const Form = () => {
               </p>
             </div>
 
-            <label htmlFor="product-file" className="product-file-label">
-              Add your file
-            </label>
-
             <FileUploader3 />
             <div className="product-name-div">
               <label htmlFor="product-name" className="product-name-label">

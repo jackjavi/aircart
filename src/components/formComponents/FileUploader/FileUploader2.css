@@ -10,17 +10,17 @@
 }
 
 .cover-img-container {
-  position: relative;
-  height: 147px;
+  position: absolute;
+  height: 100%;
 
   width: 100%;
 }
 
 .cover-img-container img {
   position: absolute;
-  top: -74.5px;
+  top: 0;
   left: 0;
-  height: 147px;
+  height: 100%;
   object-fit: cover;
   width: 100%;
 }
