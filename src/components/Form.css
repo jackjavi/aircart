@@ -520,12 +520,13 @@
   .main-left-container {
     position: relative;
     width: 100vw;
+    height: 85vh;
 
     position: relative;
     margin-bottom: 10px;
 
     border-radius: 16px;
-    margin-left: 16px;
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -535,11 +536,10 @@
   }
 
   .main-left {
-    height: 85%;
+    height: 100%;
     width: 100%;
     background: #ffffff;
     border-radius: 16px;
-    overflow-y: scroll;
   }
 
   .main-left::-webkit-scrollbar {
@@ -1016,7 +1016,7 @@
   .personalized-url {
     margin-top: 15px;
 
-    margin-bottom: 100px;
+    margin-bottom: 50px;
   }
 
   .personalized-url h3 {
