@@ -5,8 +5,7 @@
   position: relative;
   display: flex;
   align-items: center;
-  padding-left: 70px;
-  padding-right: 70px;
+
   flex-direction: column;
 
   background: url("../assets/background-img.png"),
