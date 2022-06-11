@@ -519,7 +519,7 @@
 @media only screen and (max-width: 576px) {
   .main-left-container {
     position: relative;
-    width: 100vw;
+    width: 100%;
 
     margin-bottom: 10px;
   }
@@ -528,7 +528,8 @@
   }
 
   .main-left {
-    height: 85vh;
+    height: 100%;
+    width: 100%;
     background: #ffffff;
     border-radius: 16px;
     overflow-y: scroll;
