@@ -540,6 +540,7 @@
     width: 100%;
     background: #ffffff;
     border-radius: 16px;
+    padding-top: 5px;
   }
 
   .main-left::-webkit-scrollbar {
