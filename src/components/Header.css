@@ -89,13 +89,8 @@
 
   .aircart-logo-dark {
     display: inline-block;
-    height: 20px;
-    margin-top: 12px;
-  }
+    height: 10%;
 
-  .header-right {
-    margin-right: 16px;
-    height: 100%;
     width: 100%;
   }
 
@@ -146,30 +141,5 @@
     font-size: 16px;
     line-height: 30px;
     background-color: #e7e7e7;
-  }
-  @media only screen and (min-width: 600px) {
-    .main-section {
-      gap: 50px;
-    }
-  }
-
-  @media only screen and (min-width: 768px) {
-    .main-section {
-      gap: 50px;
-    }
-  }
-
-  @media only screen and (min-width: 992px) {
-    @media only screen and (min-width: 768px) {
-      .main-section {
-        gap: 70px;
-      }
-    }
-  }
-
-  @media only screen and (min-width: 1200px) {
-    .main-section {
-      gap: 90px;
-    }
   }
 }
