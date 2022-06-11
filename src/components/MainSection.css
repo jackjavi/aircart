@@ -6,13 +6,10 @@
 .main-section {
   margin-top: 34px;
 
-  max-width: 1400px;
   display: flex;
   justify-content: space-between;
-  margin-left: 70px;
-  margin-right: 70px;
+
   position: relative;
-  max-width: 1500px;
 }
 
 @media only screen and (min-width: 600px) {

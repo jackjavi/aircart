@@ -2,6 +2,20 @@
   z-index: 200;
 }
 
+.preview-preview {
+  position: absolute;
+  background-color: #ffffff;
+  z-index: 200;
+  bottom: -110px;
+  right: 0;
+  left: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+}
+
 .preview-btn {
   border: none;
   background: #000000;
