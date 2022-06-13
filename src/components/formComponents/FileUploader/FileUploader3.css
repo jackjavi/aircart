@@ -27,18 +27,18 @@
 }
 
 .p-1 {
-  margin-top: -15%;
+  margin-top: -7.5%;
   text-decoration-line: none;
   font-family: "General Sans";
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 7.5px;
 
   color: #000000;
 }
 
 .p-2-2 {
-  margin-bottom: -15%;
+  margin-bottom: -8%;
 
   font-family: "General Sans";
   font-style: normal;
@@ -70,7 +70,7 @@
 }
 
 .p-2 {
-  margin-bottom: -20%;
+  margin-bottom: -10%;
 
   font-family: "General Sans";
   font-style: normal;
@@ -89,7 +89,7 @@
 
 @media only screen and (max-width: 576px) {
   .p-2 {
-    font-size: 12px;
+    font-size: 10px;
   }
 }
 

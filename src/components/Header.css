@@ -23,7 +23,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: -1%;
+  margin-left: -2%;
+}
+
+@media screen and (max-width: 576px) {
+  .header-left {
+    margin-left: -5%;
+  }
 }
 .header-right {
   display: flex;
