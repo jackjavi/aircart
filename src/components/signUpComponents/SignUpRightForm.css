@@ -70,14 +70,14 @@
 @media only screen and (max-width: 1400px) {
   .sign-up-agreement-div {
     font-size: 13px;
-    line-height: 15px;
+    line-height: 20px;
   }
 }
 
 @media only screen and (max-width: 768px) {
   .sign-up-agreement-div {
     font-size: 12px;
-    line-height: 14px;
+    line-height: 15px;
   }
 }
 
