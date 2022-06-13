@@ -43,7 +43,7 @@ const FileUploader3 = () => {
       <div className="outer">
         <div className="inner inner-p-i full-width">
           {!fileDataURL && (
-            <p className="p-1 p-2-underline">Upload Image or Video</p>
+            <p className="p-2-underline">Upload Image or Video</p>
           )}
           {!fileDataURL && (
             <p className="p-2 ">
