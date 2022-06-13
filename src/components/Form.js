@@ -168,7 +168,7 @@ const Form = () => {
 
           <div className="personalized-url">
             <h3>Your personalized URL</h3>
-            <h4>URL</h4>
+            <h4 className="url-url">URL</h4>
             <div className="url-input">
               <div className="url-input-1">
                 <p>aircart.app/</p>
