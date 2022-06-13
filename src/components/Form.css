@@ -41,10 +41,9 @@
   font-family: "Monument Extended";
   font-style: normal;
   font-weight: 400;
-  font-size: 32px;
-
+  font-size: 30px;
   margin-bottom: 3%;
-  max-width: 85%;
+
 }
 
 @media only screen and (max-width: 1400px) {
@@ -185,8 +184,7 @@
   }
 }
 .email-desc-top {
-  margin-top: -2%;
-  display: flex;
+  display: inline;
   flex-direction: column;
 }
 
