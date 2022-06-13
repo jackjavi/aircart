@@ -56,7 +56,7 @@
   line-height: 23px;
   color: #000000;
   margin-bottom: 5%;
-  max-width: 70%;
+  max-width: 80%;
 }
 
 @media only screen and (max-width: 1400px) {
@@ -111,14 +111,14 @@
 @media only screen and (max-width: 1400px) {
   .google-icon-text {
     font-size: 20px;
-    line-height: 25px;
+    line-height: 20px;
   }
 }
 
 @media only screen and (max-width: 768px) {
   .google-icon-text {
     font-size: 15px;
-    line-height: 20px;
+    line-height: 15px;
   }
 }
 
@@ -145,21 +145,14 @@
 @media only screen and (max-width: 1400px) {
   .facebook-icon-text {
     font-size: 20px;
-    line-height: 25px;
-  }
-}
-
-@media only screen and (max-width: 1400px) {
-  .facebook-icon-text {
-    font-size: 20px;
-    line-height: 25px;
+    line-height: 20px;
   }
 }
 
 @media only screen and (max-width: 768px) {
   .facebook-icon-text {
     font-size: 15px;
-    line-height: 20px;
+    line-height: 15px;
   }
 }
 
