@@ -10,7 +10,7 @@ function App() {
     <div className="app">
       <Helmet>
         <meta charSet="utf-8" />
-        <title>aircart : The easiest and fastest way to sell digital products online</title>
+        <title>aircart - The easiest and fastest way to sell digital products online</title>
         <link rel="canonical" href="aircart-test.netlify.app" />
         <meta
           name="description"
