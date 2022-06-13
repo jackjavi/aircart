@@ -42,7 +42,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
-  line-height: 45px;
+
   margin-bottom: 3%;
   max-width: 85%;
 }
@@ -50,14 +50,12 @@
 @media only screen and (max-width: 1400px) {
   .product-info-header h3 {
     font-size: 25px;
-    line-height: 30px;
   }
 }
 
 @media only screen and (max-width: 576px) {
   .product-info-header h3 {
     font-size: 2px;
-    line-height: 30px;
   }
 }
 
@@ -66,7 +64,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 26px;
+
   margin-bottom: 8%;
 }
 @media only screen and (max-width: 1400px) {
@@ -75,7 +73,6 @@
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
-    line-height: 20px;
   }
 }
 
@@ -136,19 +133,16 @@
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
 }
 
 @media only screen and (max-width: 1400px) {
   .email-address-div input {
     font-size: 14px;
-    line-height: 20px;
   }
 }
 @media only screen and (max-width: 576px) {
   .email-address-div input {
     font-size: 12px;
-    line-height: 20px;
   }
 }
 
@@ -158,19 +152,16 @@
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
 }
 
 @media only screen and (max-width: 1400px) {
   .email-address-div input::placeholder {
     font-size: 14px;
-    line-height: 20px;
   }
 }
 @media only screen and (max-width: 576px) {
   .email-address-div input::placeholder {
     font-size: 12px;
-    line-height: 20px;
   }
 }
 
@@ -216,7 +207,6 @@
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 22px;
 }
 
 @media screen and (max-width: 1400px) {
@@ -226,7 +216,6 @@
     font-style: normal;
     font-weight: 500;
     font-size: 13px;
-    line-height: 16px;
   }
 }
 
@@ -243,7 +232,6 @@
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
 }
 
 .product-name-input::placeholder {
@@ -251,7 +239,6 @@
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
 
   color: #636363;
 }
@@ -259,7 +246,6 @@
 @media screen and (max-width: 1400px) {
   .product-name-input {
     font-size: 12px;
-    line-height: 20px;
   }
 
   .product-name-input::placeholder {
@@ -267,7 +253,6 @@
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
-    line-height: 20px;
 
     color: #636363;
   }
@@ -285,13 +270,12 @@
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 22px;
 }
 
 @media screen and (max-width: 1400px) {
   .product-desc-label {
     font-size: 12px;
-    line-height: 16px;
+
     color: #2a2929;
   }
 }
@@ -307,7 +291,6 @@
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
 }
 
 .product-desc-name::placeholder {
@@ -315,7 +298,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
+
   color: #636363;
 }
 
@@ -329,7 +312,7 @@
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 22px;
+
   color: #2a2929;
 }
 
@@ -353,7 +336,6 @@
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
 }
 
 .product-price-input {
@@ -375,7 +357,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
+
   padding-left: 10px;
   color: #636363;
 }
@@ -398,7 +380,6 @@
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 22px;
 
   color: #2a2929;
 }
@@ -413,7 +394,6 @@
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
-  line-height: 29px;
 
   color: #2a2929;
   margin-bottom: 24px;
@@ -424,7 +404,6 @@
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 22px;
 
   color: #2a2929;
   margin-bottom: 8px;
@@ -454,7 +433,6 @@
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
-  line-height: 30px;
 
   text-decoration-line: underline;
 
@@ -466,7 +444,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 30px;
+
   color: #000000;
 }
 
@@ -481,7 +459,6 @@
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 22px;
 
   color: #2a2929;
 }
@@ -491,7 +468,7 @@
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+
   padding: 61px 18px;
   text-align: center;
   text-decoration-line: underline;
@@ -509,7 +486,6 @@
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 20px;
 
   color: #000000;
 }
@@ -544,7 +520,6 @@
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
-  line-height: 29px;
 
   color: #2a2929;
 }
@@ -554,7 +529,6 @@
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 22px;
 
   color: #2a2929;
 }
@@ -579,7 +553,7 @@
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 22px;
+
   color: #2a2929;
   padding: 18px 16px;
 }
@@ -598,7 +572,6 @@
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 22px;
 }
 
 .url-input-2 input::placeholder {
@@ -606,7 +579,6 @@
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 22px;
 
   color: #adb3b8;
 }
@@ -616,7 +588,7 @@
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 22px;
+
   text-decoration-line: underline;
   color: #2a2929;
   border: none;
