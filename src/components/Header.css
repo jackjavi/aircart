@@ -69,23 +69,21 @@
 }
 
 @media only screen and (max-width: 768px) {
-}
-
-@media only screen and (max-width: 576px) {
   .aircart-logo-light {
     display: none;
   }
 
   .aircart-logo-dark {
     display: inline-block;
-    height: 10%;
-    width: 100%;
+
+    width: 50px;
   }
 
   .menu-div {
     display: block;
     border: none;
-    width: 50px;
+    height: 35%;
+    width: 8%;
     background-color: #fff;
   }
 
@@ -98,9 +96,13 @@
     flex-direction: column;
     background-color: #e7e7e7;
     z-index: 100;
-    gap: 10px;
+    gap: 3%;
     border-radius: 4px;
-    padding: 10px 8px;
+    padding: 5% 5%;
+  }
+
+  .nav-links {
+    display: none;
   }
 
   .mobile-nav-links span a {
