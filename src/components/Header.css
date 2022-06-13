@@ -68,6 +68,9 @@
   opacity: 0.7;
 }
 
+@media only screen and (max-width: 768px) {
+}
+
 @media only screen and (max-width: 576px) {
   .aircart-logo-light {
     display: none;

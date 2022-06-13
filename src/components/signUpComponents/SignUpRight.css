@@ -1,4 +1,7 @@
 @media only screen and (min-width: 768px) {
+  .sign-up-right-header {
+    display: none;
+  }
 }
 
 .sign-up-right-main {
@@ -13,6 +16,13 @@
   display: none;
 }
 
+@media only screen and (max-width: 768px) {
+  .sign-up-right-main {
+    width: 100vw;
+    height: 82vh;
+  }
+}
+
 .sign-up-right-main-title {
   font-family: "Monument Extended";
   font-style: normal;
@@ -21,6 +31,21 @@
   line-height: 41px;
   color: #000000;
   margin-bottom: 4%;
+  max-width: 85%;
+}
+
+@media only screen and (max-width: 1400px) {
+  .sign-up-right-main-title {
+    font-size: 25px;
+    line-height: 30px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .sign-up-right-main-title {
+    font-size: 20px;
+    line-height: 25px;
+  }
 }
 
 .sign-up-right-main-desc {
@@ -31,6 +56,21 @@
   line-height: 23px;
   color: #000000;
   margin-bottom: 5%;
+  max-width: 70%;
+}
+
+@media only screen and (max-width: 1400px) {
+  .sign-up-right-main-desc {
+    font-size: 15px;
+    line-height: 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .sign-up-right-main-desc {
+    font-size: 14px;
+    line-height: 17px;
+  }
 }
 
 .sign-up-right-buttons-div {
@@ -45,6 +85,7 @@
   align-items: center;
   border: none;
   background-color: #ffffff;
+  max-height: 85px;
 }
 
 .google-icon-text {
@@ -59,14 +100,26 @@
   display: flex;
   align-items: center;
   gap: 2%;
-
   justify-content: center;
   background: #ffefee;
   border: 1px solid #eb4335;
   border-radius: 4px;
-  padding: 2%;
-
+  padding: 0 3%;
   overflow-y: hidden;
+}
+
+@media only screen and (max-width: 1400px) {
+  .google-icon-text {
+    font-size: 20px;
+    line-height: 25px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .google-icon-text {
+    font-size: 15px;
+    line-height: 20px;
+  }
 }
 
 .facebook-icon-text {
@@ -85,12 +138,33 @@
   background: #d5eeff;
   border: 1px solid #0777e8;
   border-radius: 4px;
-  padding: 2%;
+  padding: 0 3%;
   overflow-y: hidden;
 }
 
+@media only screen and (max-width: 1400px) {
+  .facebook-icon-text {
+    font-size: 20px;
+    line-height: 25px;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .facebook-icon-text {
+    font-size: 20px;
+    line-height: 25px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .facebook-icon-text {
+    font-size: 15px;
+    line-height: 20px;
+  }
+}
+
 .sign-up-right-hr-div {
-  margin-bottom: 40px;
+  margin-bottom: 8%;
   display: grid;
   grid-template-columns: 5fr 1fr 5fr;
   align-items: center;
@@ -100,32 +174,4 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
-@media only screen and (min-width: 1400px) {
-}
-@media only screen and (max-width: 1400px) {
-}
-@media only screen and (max-width: 992px) {
-}
-
-@media only screen and (max-width: 768px) {
-  .sign-up-right-main {
-    width: 100vw;
-    height: 82vh;
-  }
-}
-@media only screen and (max-width: 576px) {
-}
-
-@media only screen and (min-width: 1400px) {
-}
-@media only screen and (max-width: 1400px) {
-}
-@media only screen and (max-width: 1200px) {
-}
-@media only screen and (max-width: 992px) {
-}
-@media only screen and (max-width: 768px) {
-}
-@media only screen and (max-width: 576px) {
 }

@@ -43,7 +43,6 @@
   font-weight: 400;
   font-size: 30px;
   margin-bottom: 3%;
-
 }
 
 @media only screen and (max-width: 1400px) {
@@ -711,7 +710,7 @@
     position: relative;
     width: 100vw;
 
-    margin-bottom: 10px;
+    margin-bottom: 3%;
   }
 }
 
