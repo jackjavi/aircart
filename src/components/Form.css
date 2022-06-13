@@ -184,8 +184,7 @@
   }
 }
 .email-desc-top {
-  margin-top: -2%;
-  display: flex;
+  display: inline;
   flex-direction: column;
 }
 
