@@ -1,5 +1,4 @@
 .header {
-  margin-top: 1.5%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -77,15 +76,14 @@
   .aircart-logo-dark {
     display: inline-block;
     height: 10%;
-
     width: 100%;
   }
 
   .menu-div {
     display: block;
     border: none;
-
     width: 50px;
+    background-color: #fff;
   }
 
   .mobile-nav-links {
