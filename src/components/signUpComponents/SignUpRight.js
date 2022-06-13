@@ -8,7 +8,10 @@ import Header from "../Header";
 const SignUpRight = () => {
   return (
     <div className="sign-up-right">
-      <Header />
+      <div className="sign-up-right-header">
+        <Header />
+      </div>
+
       <div className="sign-up-right-main">
         <h3 className="sign-up-right-main-title">Get started with aircart</h3>
         <p className="sign-up-right-main-desc">
