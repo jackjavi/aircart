@@ -37,8 +37,8 @@ const Payouts = () => {
   const handlePaypal = () => {
     setPaypalModalStyle({ display: "inline-block" });
     setIsPaypalClicked({ border: "1px solid #499df8" });
-    setIsMpesaClicked({ border: "1px solid gray" });
-    setIsBankClicked({ border: "1px solid gray" });
+    setIsMpesaClicked({ border: "1px solid #adb3b8" });
+    setIsBankClicked({ border: "1px solid #adb3b8" });
     setMpesaModalStyle({
       marginBottom: "32px",
       display: "none",
@@ -54,8 +54,8 @@ const Payouts = () => {
   const handleMpesa = () => {
     setMpesaModalStyle({ display: "inline-block" });
     setIsMpesaClicked({ border: "1px solid #499df8" });
-    setIsPaypalClicked({ border: "1px solid gray" });
-    setIsBankClicked({ border: "1px solid gray" });
+    setIsPaypalClicked({ border: "1px solid #adb3b8" });
+    setIsBankClicked({ border: "1px solid #adb3b8" });
     setPaypalModalStyle({
       marginBottom: "32px",
       display: "none",
@@ -71,8 +71,8 @@ const Payouts = () => {
   const handleBank = () => {
     setBankModalStyle({ display: "inline-block" });
     setIsBankClicked({ border: "1px solid #499df8" });
-    setIsMpesaClicked({ border: "1px solid gray" });
-    setIsPaypalClicked({ border: "1px solid gray" });
+    setIsMpesaClicked({ border: "1px solid #adb3b8" });
+    setIsPaypalClicked({ border: "1px solid #adb3b8" });
 
     setMpesaModalStyle({
       marginBottom: "32px",
@@ -98,14 +98,14 @@ const Payouts = () => {
           className="payout-logo"
         >
           <span className="paypal-logo-text">
-            <img src={Paypal} alt="paypal-logo" />
+            <img className="paypal-logo" src={Paypal} alt="paypal-logo" />
           </span>
         </button>
         <button
           type="button"
           style={isMpesaClicked}
           onClick={handleMpesa}
-          className="payout-logo mpesa-payout-logo"
+          className="payout-logo "
         >
           <span>
             <img
@@ -124,7 +124,7 @@ const Payouts = () => {
           className="payout-logo bank-btn"
         >
           <span className="side-a">
-            <img src={Bank} alt="bank-logo" />
+            <img height="18px" src={Bank} alt="bank-logo" />
           </span>
 
           <span className="bank-text">Bank</span>

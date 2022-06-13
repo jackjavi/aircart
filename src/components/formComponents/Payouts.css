@@ -61,22 +61,37 @@
 .payout-logo {
   background: #e7f2fb;
   border-style: solid;
-  border-color: #f2f6fb;
+  border-color: #e7f2fb;
   border-radius: 4px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
+.paypal-logo {
+  margin-top: 8%;
+}
+
+.mpesa-logo {
+  margin-top: 8%;
+}
+
 .bank-btn {
   display: flex;
-  gap: 1%;
+  gap: 3%;
   align-items: center;
   justify-content: center;
 }
 
 .bank-text {
-  color: rgb(18, 18, 97);
+  font-family: "General Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #1260d5;
+
   text-align: center;
 }
 

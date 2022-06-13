@@ -56,7 +56,7 @@
 
 @media only screen and (max-width: 576px) {
   .product-info-header h3 {
-    font-size: 20px;
+    font-size: 2px;
     line-height: 30px;
   }
 }
@@ -101,6 +101,18 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
+    color: #2a2929;
+    margin-bottom: 3%;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .product-info h3 {
+    font-family: "Monument Extended";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 19px;
     color: #2a2929;
     margin-bottom: 3%;
   }
