@@ -1,10 +1,8 @@
 import React from "react";
 import "./Payouts.css";
-import Paypal from "../../assets/paypal.png";
 import Mpesa from "../../assets/mpesa-logo.png";
-import Bank1 from "../../assets/bank1.png";
-import Bank2 from "../../assets/bank2.png";
-import Bank3 from "../../assets/bank3.png";
+import Paypal from "../../assets/paypal-paypal.png";
+import Bank from "../../assets/bank-bank.png";
 import ConnectPaypal from "../../assets/connect-paypal.png";
 
 const Payouts = () => {
@@ -110,7 +108,12 @@ const Payouts = () => {
           className="payout-logo mpesa-payout-logo"
         >
           <span>
-            <img className="mpesa-logo" src={Mpesa} alt="mpesa-logo" />
+            <img
+              width="100%"
+              className="mpesa-logo"
+              src={Mpesa}
+              alt="mpesa-logo"
+            />
           </span>
         </button>
 
@@ -118,14 +121,13 @@ const Payouts = () => {
           type="button"
           style={isBankClicked}
           onClick={handleBank}
-          className="payout-logo side-b"
+          className="payout-logo bank-btn"
         >
           <span className="side-a">
-            <img src={Bank3} alt="bank-logo" />
-            <img src={Bank1} alt="bank-logo" />
+            <img src={Bank} alt="bank-logo" />
           </span>
 
-          <img className="bank-2-logo" src={Bank2} alt="bank-logo" />
+          <span className="bank-text">Bank</span>
         </button>
       </p>
 

@@ -1,8 +1,9 @@
 import React from "react";
 import "./SignUpRight.css";
-import GoogleIcon from "@mui/icons-material/Google";
-import FacebookIcon from "@mui/icons-material/Facebook";
+
 import SignUpRightForm from "./SignUpRightForm";
+import GoogleIcon from "../../assets/google-icon.png";
+import FacebookIcon from "../../assets/facebook-icon.png";
 
 const SignUpRight = () => {
   return (
@@ -15,13 +16,13 @@ const SignUpRight = () => {
       <div className="sign-up-right-buttons-div">
         <button className="sign-up-right-button">
           <span className="google-icon-text">
-            <GoogleIcon color="secondary" />
+            <img height="35%" src={GoogleIcon} alt="google-icon" />
             Continue with Google
           </span>
         </button>
         <button className="sign-up-right-button">
           <span className="facebook-icon-text">
-            <FacebookIcon color="primary" />
+            <img height="35%" src={FacebookIcon} alt="google-icon" />
             Continue with Facebook
           </span>
         </button>

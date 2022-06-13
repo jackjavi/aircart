@@ -5,7 +5,7 @@ import { HeaderLeft } from "../headerComponents/HeaderLeft";
 const SignUpLeft = () => {
   return (
     <div className="sign-up-left-container">
-      <HeaderLeft />
+      <HeaderLeft className="header-signup" />
       <div className="sign-up-left-main-left">
         <h3>Sell your Music in seconds</h3>
         <p className="sign-up-main-left-p-1">

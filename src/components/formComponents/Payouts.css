@@ -1,5 +1,5 @@
 .payouts-div {
-  margin-bottom: 32px;
+  margin-bottom: 3%;
 }
 
 .payouts-div h3 {
@@ -8,8 +8,22 @@
   font-weight: 400;
   font-size: 24px;
   line-height: 29px;
-  margin-bottom: 24px;
+  margin-bottom: 4%;
   color: #2a2929;
+}
+
+@media only screen and (max-width: 1400px) {
+  .payouts-div h3 {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .payouts-div {
+    font-size: 17px;
+    line-height: 25px;
+  }
 }
 
 .payout-method {
@@ -20,14 +34,28 @@
   line-height: 22px;
 
   color: #2a2929;
-  margin-bottom: 16px;
+  margin-bottom: 4%;
+}
+
+@media only screen and (max-width: 1400px) {
+  .payouts-method {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .payouts-method {
+    font-size: 13px;
+    line-height: 15px;
+  }
 }
 
 .payout-links {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 4%;
+  margin-bottom: 4%;
 }
 
 .payout-logo {
@@ -40,40 +68,16 @@
   justify-content: center;
 }
 
-.paypal-logo {
-  padding: 0.5px 35px;
-
-  border-radius: 4px;
-  padding: 3px 25px;
-
-  margin-top: 4px;
-}
-
-.paypal-logo-text {
-  padding: 6px 30px;
-}
-
-.mpesa-payout-logo {
-  padding: 4px 35px;
-}
-
-.mpesa-logo {
-  margin-top: 9px;
-}
-
-.side-a {
+.bank-btn {
   display: flex;
-  flex-direction: column;
+  gap: 1%;
   align-items: center;
   justify-content: center;
-  margin-right: 8px;
 }
 
-.side-b {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 11px 30px;
+.bank-text {
+  color: rgb(18, 18, 97);
+  text-align: center;
 }
 
 .bank-logo span {
@@ -96,16 +100,11 @@
   width: 100%;
 }
 
-.connect-paypal-img {
-  margin-bottom: 32px;
-  display: none;
-}
-
 .account-div {
   display: flex;
   flex-direction: column;
-  gap: 8px;
-  margin-bottom: 16px;
+  gap: 2%;
+  margin-bottom: 3%;
   width: 100%;
 }
 
@@ -119,13 +118,27 @@
   color: #2a2929;
 }
 
+@media only screen and (max-width: 1400px) {
+  .account-div label {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .account-div label {
+    font-size: 13px;
+    line-height: 16px;
+  }
+}
+
 .account-div input {
   border: 1px solid rgb(192, 192, 192);
   border-radius: 4px;
   box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
-  padding-left: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-left: 3%;
+  padding-top: 3%;
+  padding-bottom: 3%;
   outline: none;
   font-family: "General Sans";
   font-style: normal;
@@ -135,19 +148,47 @@
   width: 100%;
 }
 
+@media only screen and (max-width: 1400px) {
+  .account-div input {
+    font-size: 13px;
+    line-height: 15px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .account-div input {
+    font-size: 12px;
+    line-height: 14px;
+  }
+}
+
 .account-div select {
   border: 1px solid rgb(192, 192, 192);
   border-radius: 4px;
   box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
-  padding-left: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-left: 3%;
+  padding-top: 3%;
+  padding-bottom: 3%;
   outline: none;
   font-family: "General Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
+}
+
+@media only screen and (max-width: 1400px) {
+  .account-div select {
+    font-size: 13px;
+    line-height: 15px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .account-div select {
+    font-size: 12px;
+    line-height: 14px;
+  }
 }
 
 input::-webkit-outer-spin-button,
@@ -169,158 +210,4 @@ input[type="number"] {
 @media only screen and (max-width: 992px) {
 }
 @media only screen and (max-width: 768px) {
-}
-
-@media only screen and (max-width: 576px) {
-  .payout-links {
-    display: flex;
-    flex-direction: column;
-
-    margin-bottom: 20px;
-  }
-
-  .payouts-div {
-    margin-bottom: 15px;
-  }
-
-  .payouts-div h3 {
-    font-family: "Monument Extended";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    margin-bottom: 6px;
-    color: #2a2929;
-  }
-
-  .payout-method {
-    font-family: "General Sans";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 10px;
-    line-height: 14px;
-
-    color: #2a2929;
-    margin-bottom: 10px;
-  }
-
-  .payout-links {
-    display: flex;
-
-    align-items: center;
-    justify-content: space-between;
-    gap: 5px;
-    margin-bottom: 20px;
-  }
-
-  .payout-logo {
-    background: #e7f2fb;
-    border-style: solid;
-    border-color: #f2f6fb;
-    border-radius: 2px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .paypal-logo-text {
-    padding: 3px 16px;
-  }
-
-  .mpesa-payout-logo {
-    padding: 1px 24px;
-  }
-
-  .mpesa-logo {
-    margin-top: 5px;
-  }
-
-  .side-a {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-right: 4px;
-  }
-
-  .side-b {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 6px 20px;
-  }
-
-  .bank-logo span {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .payout-connect-modal {
-    width: 100%;
-  }
-
-  .payout-modal-paypal-div {
-    width: 100%;
-  }
-  .payout-modal-mpesa-div {
-    width: 100%;
-  }
-
-  .payout-modal-bank-div {
-    width: 100%;
-  }
-
-  .connect-paypal-img {
-    margin-bottom: 15px;
-    display: none;
-  }
-
-  .account-div {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    margin-bottom: 10px;
-    width: 100%;
-  }
-
-  .account-div label {
-    font-family: "General Sans";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 10px;
-    line-height: 14px;
-    width: 100%;
-    color: #2a2929;
-  }
-
-  .account-div input {
-    border: 1px solid rgb(192, 192, 192);
-    border-radius: 2px;
-    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
-    padding-left: 8px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    outline: none;
-    font-family: "General Sans";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 15px;
-    width: 100%;
-  }
-
-  .account-div select {
-    border: 1px solid rgb(192, 192, 192);
-    border-radius: 2px;
-    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
-    padding-left: 8px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    outline: none;
-    font-family: "General Sans";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 15px;
-  }
 }

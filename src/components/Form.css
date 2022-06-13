@@ -1,12 +1,14 @@
 .main-left-container {
   position: relative;
-  margin-bottom: 30px;
+  margin-bottom: 3%;
   width: 50vw;
   border-radius: 16px;
-  margin-left: 70px;
+
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 .main-left {
@@ -32,7 +34,7 @@
 }
 
 .product-info-content {
-  padding: 32px;
+  padding: 7%;
 }
 
 .product-info-header h3 {
@@ -41,7 +43,22 @@
   font-weight: 400;
   font-size: 32px;
   line-height: 45px;
-  margin-bottom: 8px;
+  margin-bottom: 3%;
+  max-width: 85%;
+}
+
+@media only screen and (max-width: 1400px) {
+  .product-info-header h3 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .product-info-header h3 {
+    font-size: 20px;
+    line-height: 30px;
+  }
 }
 
 .product-info-header p {
@@ -50,12 +67,21 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
-  margin-bottom: 32px;
+  margin-bottom: 8%;
+}
+@media only screen and (max-width: 1400px) {
+  .product-info-header p {
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+  }
 }
 
 .product-info-header hr {
   border: 1px solid #96989a;
-  margin-bottom: 32px;
+  margin-bottom: 8%;
 }
 
 .product-info h3 {
@@ -65,23 +91,34 @@
   font-size: 24px;
   line-height: 29px;
   color: #2a2929;
-  margin-bottom: 24px;
+  margin-bottom: 3%;
+}
+
+@media only screen and (max-width: 1400px) {
+  .product-info h3 {
+    font-family: "Monument Extended";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #2a2929;
+    margin-bottom: 3%;
+  }
 }
 
 .email-address-div {
   width: 100%;
-  margin-bottom: 24px;
+  margin-bottom: 5%;
 }
 
 .email-address-div input {
   width: 100%;
-
   border: 1px solid rgb(192, 192, 192);
   border-radius: 4px;
   box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
-  padding-left: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-left: 3%;
+  padding-top: 3%;
+  padding-bottom: 3%;
   outline: none;
   font-family: "General Sans";
   font-style: normal;
@@ -90,18 +127,63 @@
   line-height: 30px;
 }
 
+@media only screen and (max-width: 1400px) {
+  .email-address-div input {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .email-address-div input {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+
+.email-address-div input::placeholder {
+  outline: none;
+  font-family: "General Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+@media only screen and (max-width: 1400px) {
+  .email-address-div input::placeholder {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .email-address-div input::placeholder {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+
 .email-address-div p {
   font-family: "General Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 22px;
-
   color: #000000;
 }
 
+@media only screen and (max-width: 1400px) {
+  .email-address-div p {
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+  }
+}
+
 .email-desc-top {
-  margin-top: -5px;
+  margin-top: -2%;
   display: flex;
   flex-direction: column;
 }
@@ -109,7 +191,7 @@
 .span-2 {
   text-decoration-line: underline;
   cursor: pointer;
-  margin-left: 5px;
+  margin-top: 1%;
 }
 
 .product-name-div {
@@ -118,8 +200,7 @@
 }
 
 .product-name-label {
-  height: 22px;
-  margin-bottom: 8px;
+  margin-bottom: 2%;
   font-family: "General Sans";
   font-style: normal;
   font-weight: 500;
@@ -127,14 +208,25 @@
   line-height: 22px;
 }
 
+@media screen and (max-width: 1400px) {
+  .product-name-label {
+    margin-bottom: 2%;
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+  }
+}
+
 .product-name-input {
-  margin-bottom: 16px;
+  margin-bottom: 4%;
   border: 1px solid rgb(192, 192, 192);
   border-radius: 4px;
   box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
-  padding-left: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-left: 3%;
+  padding-top: 3%;
+  padding-bottom: 3%;
   outline: none;
   font-family: "General Sans";
   font-style: normal;
@@ -153,20 +245,44 @@
   color: #636363;
 }
 
+@media screen and (max-width: 1400px) {
+  .product-name-input {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .product-name-input::placeholder {
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+
+    color: #636363;
+  }
+}
+
 .product-desc {
   display: flex;
   flex-direction: column;
-  margin-bottom: 16px;
+  margin-bottom: 4%;
 }
 
 .product-desc-label {
-  margin-bottom: 8px;
+  margin-bottom: 2%;
   font-family: "General Sans";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 22px;
-  color: #2a2929;
+}
+
+@media screen and (max-width: 1400px) {
+  .product-desc-label {
+    font-size: 12px;
+    line-height: 16px;
+    color: #2a2929;
+  }
 }
 
 .product-desc-name {
@@ -523,7 +639,7 @@
     height: 85vh;
 
     position: relative;
-    margin-bottom: 10px;
+    margin-bottom: 3%;
     margin-right: 7.5%;
     border-radius: 16px;
     margin-left: 7.5%;
@@ -532,62 +648,37 @@
     justify-content: center;
   }
 
-  .preview-div button {
-  }
-
   .main-left {
     height: 100%;
     width: 100%;
     background: #ffffff;
     border-radius: 16px;
-    padding-top: 5px;
-  }
-
-  .main-left::-webkit-scrollbar {
-    display: none;
-  }
-
-  .main-left {
-    scrollbar-width: none;
-  }
-
-  .product-info {
-    display: flex;
-    flex-direction: column;
+    padding-top: 3.5%;
   }
 
   .product-info-content {
-    padding: 10px;
+    padding: 3%;
   }
 
   .product-info-header h3 {
-    font-family: "Monument Extended";
-    font-style: normal;
-    font-weight: 400;
     font-size: 18px;
-    line-height: 25px;
-    margin-bottom: 6px;
+    line-height: 28px;
+    margin-bottom: 2%;
   }
 
   .product-info-header p {
-    font-family: "General Sans";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 16px;
+    font-size: 13px;
+    line-height: 18px;
     margin-bottom: 20px;
   }
 
   .product-info-header hr {
     border: 1px solid #96989a;
-    margin-bottom: 20px;
+    margin-bottom: 6%;
   }
 
   .product-info h3 {
-    font-family: "Monument Extended";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
+    font-size: 17px;
     line-height: 19px;
     color: #2a2929;
     margin-bottom: 15px;
@@ -595,199 +686,63 @@
 
   .email-address-div {
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 6%;
   }
 
   .email-address-div input {
-    width: 100%;
-
-    border: 1px solid rgb(192, 192, 192);
-    border-radius: 2px;
-    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
-    padding-left: 8px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    outline: none;
-    font-family: "General Sans";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 17px;
+    padding-left: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 12px;
   }
 
   .email-address-div p {
-    font-family: "General Sans";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 15px;
-
-    color: #000000;
-  }
-
-  .email-desc-top {
-    margin-top: -7px;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .span-2 {
-    text-decoration-line: underline;
-    cursor: pointer;
-    margin-left: 0;
-  }
-
-  .product-name-div {
-    display: flex;
-    flex-direction: column;
+    font-size: 12px;
   }
 
   .product-name-label {
-    margin-bottom: 5px;
-    font-family: "General Sans";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 10px;
-    line-height: 13px;
+    font-size: 13px;
   }
 
   .product-name-input {
-    margin-bottom: 9px;
-    border: 1px solid rgb(192, 192, 192);
-    border-radius: 2px;
-    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
-    padding-left: 8px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    outline: none;
-    font-family: "General Sans";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 15px;
+    font-size: 12px;
   }
 
   .product-name-input::placeholder {
-    font-family: "General Sans";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 15px;
-
-    color: #636363;
-  }
-
-  .product-desc {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 10px;
+    font-size: 12px;
   }
 
   .product-desc-label {
-    margin-bottom: 8px;
-    font-family: "General Sans";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 10px;
-    line-height: 14px;
-    color: #2a2929;
+    font-size: 13px;
   }
 
   .product-desc-name {
-    font-size: 10px;
-    border: 1px solid rgb(192, 192, 192);
-    border-radius: 2px;
-    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
-    padding-left: 8px;
-    outline: none;
-    font-family: "General Sans";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 10px;
+    font-size: 12px;
     line-height: 15px;
   }
 
   .product-desc-name::placeholder {
-    font-family: "General Sans";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 8px;
+    font-size: 12px;
     line-height: 15px;
-    color: #636363;
-  }
-
-  .product-price-div {
-    display: flex;
-    flex-direction: column;
   }
 
   .product-price-label {
-    font-family: "General Sans";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 10px;
-    line-height: 14px;
-    color: #2a2929;
-  }
-
-  .product-price-input-div {
-    margin-top: 4px;
-    width: 100%;
-
-    margin-bottom: 8px;
-    font-size: 10px;
-    border: 1px solid rgb(192, 192, 192);
-    border-radius: 2px;
-    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
-    padding-left: 8px;
-    display: flex;
-    align-items: center;
+    font-size: 13px;
   }
 
   .product-price-input-div p {
-    color: #636363;
-    font-family: "General Sans";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 10px;
+    font-size: 12px;
     line-height: 15px;
   }
 
   .product-price-input {
-    outline: none;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    border: none;
-    padding-left: 8px;
-    width: 100%;
-    font-family: "General Sans";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 10px;
+    font-size: 12px;
     line-height: 15px;
   }
 
   .product-price-input::placeholder {
-    font-family: "General Sans";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 10px;
+    font-size: 12px;
     line-height: 15px;
-    padding-left: 8px;
-    color: #636363;
-  }
-
-  .free-product {
-    display: flex;
-    align-items: center;
-    gap: 2px;
-    margin-bottom: 15px;
-  }
-
-  .toggleIcons {
-    display: flex;
-    align-items: center;
-    justify-content: center;
   }
 
   .free-product-desc {
@@ -800,313 +755,29 @@
     color: #2a2929;
   }
 
-  .hr {
-    border: 1px solid #96989a;
-    margin-bottom: 15px;
-  }
-
-  .customize-div h3 {
-    font-family: "Monument Extended";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-
-    color: #2a2929;
-    margin-bottom: 12px;
-  }
-
-  .customize-div h4 {
-    font-family: "General Sans";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 10px;
-    line-height: 12px;
-
-    color: #2a2929;
-    margin-bottom: 5px;
-  }
-
-  .cover-img-input-div {
-    background: #f2f6fb;
-    border: 1px dashed #bec9d5;
-    border-radius: 2px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-    margin-bottom: 12px;
-  }
-
-  .cover-img-input::-webkit-file-upload-button {
-    visibility: hidden;
-  }
-
-  .cover-img-input::before {
-    content: "Upload image or video";
-    color: black;
-    display: inline-block;
-    font-family: "General Sans";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 10px;
-    line-height: 15px;
-
-    text-decoration-line: underline;
-
-    color: #000000;
-  }
-
-  .cover-img-input-div p {
-    font-family: "General Sans";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 15px;
-    color: #000000;
-  }
-
-  .thumbnail-img {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 15px;
-  }
-
-  .thumbnail-img h4 {
-    font-family: "General Sans";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 10px;
-    line-height: 14px;
-
-    color: #2a2929;
-  }
-
-  .thumb-btn {
-    font-family: "General Sans";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    padding: 61px 18px;
-    text-align: center;
-    text-decoration-line: underline;
-    background-color: yellow;
-    color: #000000;
-    border: none;
-
-    position: absolute;
-    left: 0;
-    top: 0;
-  }
-
-  .thumbnail-img p {
-    font-family: "General Sans";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 20px;
-
-    color: #000000;
-  }
-
-  .thumbnail-preview-div {
-    position: absolute;
-
-    top: 0;
-    left: 0;
-    height: 147px;
-    width: 147px;
-  }
-
-  .thumbnail-preview-img {
-    background-color: transparent;
-  }
-
-  .thumbnail-preview-img img {
-    width: 100%;
-  }
-
-  .payouts-div {
-    margin-bottom: 32px;
-  }
-
-  .payouts-div h3 {
-    font-family: "Monument Extended";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 29px;
-    margin-bottom: 24px;
-    color: #2a2929;
-  }
-
-  .payout-method {
-    font-family: "General Sans";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 22px;
-
-    color: #2a2929;
-    margin-bottom: 16px;
-  }
-
-  .payout-links {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 40px;
-  }
-
-  .payout-logo {
-    background: #fbeee7;
-
-    border-radius: 4px;
-    display: flex;
-
-    align-items: center;
-    justify-content: center;
-  }
-
-  .paypal-logo-text {
-    font-family: "General Sans";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 22px;
-    padding: 15px 20px;
-    color: #1260d5;
-  }
-
-  .mpesa-payout-logo {
-    padding: 0.5px 15px;
-    border: 1px solid #499df8;
-  }
-
-  .mpesa-logo {
-    margin-top: 9px;
-  }
-
-  .side-a {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-right: 8px;
-  }
-
-  .side-b {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 7px 15px;
-    border: 1px solid #499df8;
-  }
-
-  .bank-logo span {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .connect-paypal-img {
-    margin-bottom: 32px;
-  }
-
-  .personalized-url {
-    margin-top: 15px;
-
-    margin-bottom: 50px;
-  }
-
   .personalized-url h3 {
-    margin-bottom: 12px;
-
-    font-family: "Monument Extended";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
+    font-size: 17px;
     line-height: 17px;
-
-    color: #2a2929;
   }
 
   .personalized-url h4 {
-    font-family: "General Sans";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 10px;
+    font-size: 13px;
     line-height: 14px;
-
-    color: #2a2929;
-  }
-
-  .url-input {
-    display: flex;
-    margin-bottom: 5px;
-    border: 1px solid #96989a;
-    border-radius: 2px;
-  }
-
-  .url-input-1 {
-    background: #e6e9eb;
-    border-radius: 2px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 40%;
   }
 
   .url-input-1 p {
-    font-family: "General Sans";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 10px;
+    font-size: 12px;
     line-height: 14px;
-    color: #2a2929;
-    padding: 9px 10px;
-  }
-
-  .url-input-2 {
-    display: flex;
-    align-items: center;
-    margin-left: 7px;
   }
 
   .url-input-2 input {
-    border: none;
-    outline: none;
-
-    font-family: "General Sans";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 10px;
+    font-size: 12px;
     line-height: 14px;
-    width: 95%;
   }
 
   .url-input-2 input::placeholder {
-    font-family: "General Sans";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 10px;
+    font-size: 12px;
     line-height: 14px;
-
-    color: #adb3b8;
-  }
-
-  .copy-url {
-    font-family: "General Sans";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 10px;
-    line-height: 14px;
-    text-decoration-line: underline;
-    color: #2a2929;
-    border: none;
-    background-color: #ffffff;
-    margin-bottom: 50px;
   }
 }
 /* MEDIA SCREEN 576PX */
