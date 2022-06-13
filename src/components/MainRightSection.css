@@ -12,22 +12,20 @@
   font-style: normal;
   font-weight: 400;
   font-size: 48px;
-  line-height: 69px;
+  line-height: 60px;
 
   color: #ffffff;
 
   margin-bottom: 1%;
-  overflow-y: hidden;
 }
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1400px) {
   .main-right h3 {
-    font-family: "Monument Extended";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 20px;
-
-    color: #ffffff;
+    font-size: 37px;
+    line-height: 30px;
+  }
+  .main-right p {
+    font-size: 22px;
+    line-height: 29px;
   }
 }
 
@@ -35,7 +33,7 @@
   font-family: "General Sans";
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 25px;
   line-height: 29px;
   color: #ffffff;
   overflow-y: hidden;
@@ -59,15 +57,9 @@
   font-size: 13px;
   line-height: 20px;
   color: #ffffff;
-  max-width: 80%;
+  max-width: 70%;
 }
 
-@media only screen and (max-width: 1400px) {
-}
-@media only screen and (max-width: 1200px) {
-}
-@media only screen and (max-width: 992px) {
-}
 @media only screen and (max-width: 768px) {
   .main-right {
     display: none;
