@@ -3,7 +3,6 @@
   margin-bottom: 3%;
   width: 50vw;
   border-radius: 16px;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -12,6 +11,7 @@
 }
 
 .main-left {
+  position: relative;
   height: 65vh;
   background: #ffffff;
   border-radius: 16px;

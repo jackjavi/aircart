@@ -55,15 +55,13 @@ const Form = () => {
   return (
     <form className="main-left-container">
       <div className="preview-preview">
-        <div className="preview-div ">
-          <button
-            onClick={handleSubmitEmail}
-            type="submit"
-            className="preview-btn"
-          >
-            Preview
-          </button>
-        </div>
+        <button
+          onClick={handleSubmitEmail}
+          type="submit"
+          className="preview-btn"
+        >
+          Preview
+        </button>
       </div>
       <div className="main-left">
         <div className="product-info-content">
