@@ -193,6 +193,70 @@
   margin-top: 1%;
 }
 
+.email-modal {
+  position: absolute;
+  top: 15%;
+  left: 19%;
+  width: 60%;
+  height: 21%;
+  background: #f4f9ff;
+  border: 1px solid #5d9bf9;
+  box-shadow: 0px 2px 6px rgba(124, 132, 143, 0.25);
+  border-radius: 6px;
+  padding: 2% 2%;
+  display: none;
+}
+
+.email-modal p {
+  display: flex;
+  flex-direction: column;
+}
+
+.email-modal p span {
+  font-family: "General Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+}
+
+@media screen and (max-width: 1200px) {
+  .email-modal p span {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .email-modal p span {
+    font-size: 10px;
+    line-height: 12px;
+  }
+}
+
+.email-modal p button {
+  font-family: "General Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  color: #ffffff;
+  background: #000000;
+  border-radius: 4px;
+  border: none;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.email-modal-span-1 {
+  margin-bottom: 3%;
+}
+
+.email-modal-span-2 {
+  margin-bottom: 7%;
+}
+
 .product-name-div {
   display: flex;
   flex-direction: column;

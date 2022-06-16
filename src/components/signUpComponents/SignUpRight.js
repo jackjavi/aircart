@@ -1,9 +1,11 @@
 import React from "react";
 import "./SignUpRight.css";
 import SignUpRightForm from "./SignUpRightForm";
-import GoogleIcon from "../../assets/google-icon.png";
-import FacebookIcon from "../../assets/facebook-icon.png";
+/*import GoogleIcon from "../../assets/google-icon.png";
+import FacebookIcon from "../../assets/facebook-icon.png";*/
 import Header from "../Header";
+import GoogleLogin from "./GoogleLogin";
+import FacebookLoginComponent from "./FacebookLogin";
 
 const SignUpRight = () => {
   return (
@@ -19,18 +21,21 @@ const SignUpRight = () => {
           products.
         </p>
         <div className="sign-up-right-buttons-div">
-          <button className="sign-up-right-button">
+          <GoogleLogin />
+          {/*<button className="sign-up-right-button">
             <span className="google-icon-text">
               <img height="35%" src={GoogleIcon} alt="google-icon" />
               Continue with Google
             </span>
-          </button>
-          <button className="sign-up-right-button">
+  </button>*/}
+
+          <FacebookLoginComponent />
+          {/*<button className="sign-up-right-button">
             <span className="facebook-icon-text">
               <img height="35%" src={FacebookIcon} alt="google-icon" />
               Continue with Facebook
             </span>
-          </button>
+</button>*/}
         </div>
         <div className="sign-up-right-hr-div">
           <div>

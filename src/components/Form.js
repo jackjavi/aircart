@@ -6,13 +6,13 @@ import CoverImage from "./formComponents/coverImage";
 import FileUploader3 from "./formComponents/FileUploader/FileUploader3";
 import Payouts from "./formComponents/Payouts";
 import "./PreviewBtn.css";
-import axios from "axios";
 
 const Form = () => {
   const [toggle, setToggle] = React.useState(false);
   const [sellerData, setSellerData] = React.useState([]);
   const [price, setPrice] = React.useState({ productPrice: 10 });
   const [email, setEmail] = React.useState({ email: "Knairo@gmail.com" });
+  const [modalStyle, setModalStyle] = React.useState({ display: "none" });
 
   React.useEffect(() => {
     const items = localStorage.getItem("sellerData");
@@ -45,21 +45,20 @@ const Form = () => {
   const handleEmailChange = (e) => {
     const { name, value } = e.target;
     setEmail({ [name]: value });
+    value
+      ? setModalStyle({ display: "inline-block" })
+      : setModalStyle({ display: "none" });
   };
 
-  const handleSubmitEmail = (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
-    axios.post("http://192.168.0.116:5001", email);
+    console.log(email);
   };
 
   return (
-    <form className="main-left-container">
+    <form onClick={handleSubmit} className="main-left-container">
       <div className="preview-preview">
-        <button
-          onClick={handleSubmitEmail}
-          type="submit"
-          className="preview-btn"
-        >
+        <button type="submit" className="preview-btn">
           Preview
         </button>
       </div>
@@ -85,10 +84,18 @@ const Form = () => {
                 placeholder="Email address"
               />
 
-              <p className="email-desc-top">
-                We will send notifications to your email.
-                <span className="span-2">Create Account</span>
-              </p>
+              <div style={modalStyle} className="email-modal">
+                <p>
+                  <span className="email-modal-span-1">
+                    Notifications about purchases and more will be sent to your
+                    email.
+                  </span>
+                  <span className="email-modal-span-2">
+                    Want to do more with aircart?
+                  </span>
+                  <button>Create account</button>
+                </p>
+              </div>
             </div>
 
             <FileUploader3 />
