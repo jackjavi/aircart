@@ -1,8 +1,15 @@
 .sign-up-content {
-  max-width: 1200px;
+  max-width: 1400px;
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 100vh;
+}
+
+.header-signup {
+  height: 15vh;
+  display: flex;
+  align-items: center;
 }
 
 .sign-up-left-container {
@@ -14,13 +21,8 @@
   width: 50vw;
 }
 
-.header-signup {
-  height: 15vh;
-  z-index: 500;
-}
-
 .sign-up-left-main-left {
-  height: 83vh;
+  height: 82vh;
 }
 
 .sign-up-left-main-left h3 {
@@ -28,20 +30,24 @@
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
-
   max-width: 90%;
   color: #ffffff;
-
-  margin-top: 45%;
+  margin-top: 30%;
   margin-bottom: 2%;
 }
+
+@media only screen and (min-width: 1400px) {
+  .sign-up-left-main-left h3 {
+    margin-top: 40%;
+  }
+}
+
 @media only screen and (max-width: 1200px) {
   .sign-up-left-main-left h3 {
     font-family: "Monument Extended";
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
-
     color: #ffffff;
   }
 }
@@ -61,7 +67,6 @@
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-
   color: #ffffff;
   margin-bottom: 9%;
   max-width: 80%;
@@ -171,10 +176,9 @@
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
-
   color: #000000;
-  margin-bottom: 2.5%;
   max-width: 400px;
+  height: 10vh;
 }
 
 @media only screen and (max-width: 1400px) {
@@ -194,10 +198,10 @@
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-
   color: #000000;
-  margin-bottom: 4%;
+
   max-width: 75%;
+  height: 7vh;
 }
 
 @media only screen and (max-width: 1400px) {
@@ -217,6 +221,8 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 5%;
+  height: 10vh;
+  align-items: center;
 }
 
 .sign-up-right-button {
@@ -259,34 +265,35 @@
   }
 }
 
-.facebook-icon-text {
+.my-facebook-button-class {
   font-family: "General Sans";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
+  border: 1px solid rgb(192, 192, 192);
 
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
   width: 100%;
-  height: 70%;
+  height: 6vh;
   color: #000000;
   display: flex;
   align-items: center;
-  justify-content: center;
   gap: 2%;
-  background: #d5eeff;
-  border: 1px solid #0777e8;
+  justify-content: center;
+  background: #ffffff;
+
   border-radius: 4px;
   padding: 0 3%;
-  overflow-y: hidden;
 }
 
 @media only screen and (max-width: 1400px) {
-  .facebook-icon-text {
+  .facebook-icon-text .my-facebook-button-class {
     font-size: 14px;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .facebook-icon-text {
+  .facebook-icon-text .my-facebook-button-class {
     font-size: 12px;
   }
 }

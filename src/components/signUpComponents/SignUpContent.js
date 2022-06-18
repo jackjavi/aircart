@@ -1,18 +1,47 @@
 import React from "react";
 import "./SignUpContent.css";
 import SignUpRightForm from "./SignUpRightForm";
-import GoogleIcon from "../../assets/google-icon.png";
-import FacebookIcon from "../../assets/facebook-icon.png";
+/*import GoogleIcon from "../../assets/google-icon.png";
+import FacebookIcon from "../../assets/facebook-icon.png";*/
 import Header from "../Header";
 /*import GoogleLogin from "./GoogleLogin";
 import FacebookLoginComponent from "./FacebookLogin";*/
 import { HeaderLeft } from "../headerComponents/HeaderLeft";
+import jwtDecode from "jwt-decode";
+import FacebookLogin from "react-facebook-login";
 
 const SignUpRight = () => {
+  const handleCallbackResponse = (res) => {
+    let userObj = jwtDecode(res.credential);
+    console.log(userObj);
+    alert(`Welcome ${userObj.name} of email ${userObj.email}`);
+  };
+
+  React.useEffect(() => {
+    /* global google */
+    google.accounts.id.initialize({
+      client_id:
+        "979163570670-dsduftnkmikruf0vjqqn7bt067c8kpaf.apps.googleusercontent.com",
+      callback: handleCallbackResponse,
+    });
+
+    google.accounts.id.renderButton(document.getElementById("signin-div"), {
+      theme: "outline",
+      size: "large",
+    });
+  }, []);
+
+  const responseFacebook = (res) => {
+    console.log(res);
+    alert(`Welcome ${res.name} of email ${res.email}`);
+  };
   return (
     <div className="sign-up-content">
       <div className="sign-up-left-container">
-        <HeaderLeft className="header-signup" />
+        <div className="header-signup">
+          <HeaderLeft />
+        </div>
+
         <div className="sign-up-left-main-left">
           <h3>Sell your Music in seconds</h3>
           <p className="sign-up-main-left-p-1">
@@ -39,21 +68,30 @@ const SignUpRight = () => {
             digital products.
           </p>
           <div className="sign-up-right-buttons-div">
-            {/* <GoogleLogin />*/}
+            {/* <GoogleLogin />
             <button className="sign-up-right-button">
               <span className="google-icon-text">
                 <img height="35%" src={GoogleIcon} alt="google-icon" />
                 Continue with Google
               </span>
-            </button>
+            </button>*/}
+            <div id="signin-div"></div>
+            <FacebookLogin
+              appId="562866388662450"
+              autoLoad={true}
+              fields="name,email,picture"
+              callback={responseFacebook}
+              cssClass="my-facebook-button-class"
+              icon="fa-facebook"
+            />
 
-            {/*<FacebookLoginComponent />*/}
+            {/*<FacebookLoginComponent />
             <button className="sign-up-right-button">
               <span className="facebook-icon-text">
                 <img height="35%" src={FacebookIcon} alt="google-icon" />
                 Continue with Facebook
               </span>
-            </button>
+            </button>*/}
           </div>
           <div className="sign-up-right-hr-div">
             <div>
