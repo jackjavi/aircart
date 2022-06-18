@@ -1,0 +1,305 @@
+.sign-up-content {
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign-up-left-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-left: 5%;
+  padding-top: 2.5%;
+  width: 50vw;
+}
+
+.header-signup {
+  height: 15vh;
+  z-index: 500;
+}
+
+.sign-up-left-main-left {
+  height: 83vh;
+}
+
+.sign-up-left-main-left h3 {
+  font-family: "Monument Extended";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+
+  max-width: 90%;
+  color: #ffffff;
+
+  margin-top: 45%;
+  margin-bottom: 2%;
+}
+@media only screen and (max-width: 1200px) {
+  .sign-up-left-main-left h3 {
+    font-family: "Monument Extended";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+
+    color: #ffffff;
+  }
+}
+
+.sign-up-main-left-p-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 15%;
+}
+@media only screen and (max-width: 1200px) {
+}
+
+.sign-up-main-left-p-1 {
+  font-family: "General Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+
+  color: #ffffff;
+  margin-bottom: 9%;
+  max-width: 80%;
+}
+@media only screen and (max-width: 1200px) {
+  .sign-up-main-left-p-1 {
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+
+    color: #ffffff;
+  }
+}
+
+.sign-up-main-left-span-1 {
+  font-family: "General Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+
+  text-align: right;
+
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 1200px) {
+  .sign-up-main-left-span-1 {
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+
+    text-align: right;
+
+    color: #ffffff;
+  }
+}
+
+.sign-up-main-left-span-2 {
+  font-family: "General Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+
+  text-decoration-line: underline;
+
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 1200px) {
+  .sign-up-main-left-span-2 {
+    font-family: "General Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+
+    text-decoration-line: underline;
+
+    color: #ffffff;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+}
+
+@media only screen and (max-width: 1200px) {
+}
+@media only screen and (max-width: 992px) {
+}
+@media only screen and (max-width: 768px) {
+  .sign-up-left-container {
+    display: none;
+  }
+}
+@media only screen and (max-width: 576px) {
+}
+
+@media only screen and (min-width: 768px) {
+  .sign-up-right-header {
+    display: none;
+  }
+}
+
+.sign-up-right-main {
+  padding-left: 5%;
+  padding-top: 2.5%;
+  padding-right: 5%;
+  width: 50vw;
+  max-width: 100%;
+  height: 100vh;
+}
+
+.sign-up-right-main::-webkit-scrollbar {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .sign-up-right-main {
+    width: 100vw;
+    height: 82vh;
+  }
+}
+
+.sign-up-right-main-title {
+  font-family: "Monument Extended";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+
+  color: #000000;
+  margin-bottom: 2.5%;
+  max-width: 400px;
+}
+
+@media only screen and (max-width: 1400px) {
+  .sign-up-right-main-title {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .sign-up-right-main-title {
+    font-size: 16px;
+  }
+}
+
+.sign-up-right-main-desc {
+  font-family: "General Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+
+  color: #000000;
+  margin-bottom: 4%;
+  max-width: 75%;
+}
+
+@media only screen and (max-width: 1400px) {
+  .sign-up-right-main-desc {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .sign-up-right-main-desc {
+    font-size: 13px;
+  }
+}
+
+.sign-up-right-buttons-div {
+  margin-bottom: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 5%;
+}
+
+.sign-up-right-button {
+  display: flex;
+  align-items: center;
+  border: none;
+  background-color: #ffffff;
+  max-height: 60px;
+}
+
+.google-icon-text {
+  font-family: "General Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+
+  width: 100%;
+  height: 70%;
+  color: #000000;
+  display: flex;
+  align-items: center;
+  gap: 2%;
+  justify-content: center;
+  background: #ffefee;
+  border: 1px solid #eb4335;
+  border-radius: 4px;
+  padding: 0 3%;
+  overflow-y: hidden;
+}
+
+@media only screen and (max-width: 1400px) {
+  .google-icon-text {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .google-icon-text {
+    font-size: 12px;
+  }
+}
+
+.facebook-icon-text {
+  font-family: "General Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+
+  width: 100%;
+  height: 70%;
+  color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2%;
+  background: #d5eeff;
+  border: 1px solid #0777e8;
+  border-radius: 4px;
+  padding: 0 3%;
+  overflow-y: hidden;
+}
+
+@media only screen and (max-width: 1400px) {
+  .facebook-icon-text {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .facebook-icon-text {
+    font-size: 12px;
+  }
+}
+
+.sign-up-right-hr-div {
+  margin-bottom: 5%;
+  display: grid;
+  grid-template-columns: 5fr 1fr 5fr;
+  align-items: center;
+}
+
+.or-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

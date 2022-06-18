@@ -1,8 +1,11 @@
+.sign-up-form {
+  max-width: 100%;
+}
+
 .sign-up-email-div {
   display: flex;
   flex-direction: column;
-
-  margin-bottom: 5%;
+  margin-bottom: 2.5%;
 }
 
 .sign-up-email-div label {
@@ -10,8 +13,7 @@
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-
-  margin-bottom: 2%;
+  margin-bottom: 1%;
   color: #2a2929;
 }
 
@@ -21,7 +23,7 @@
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1000px) {
   .sign-up-email-div label {
     font-size: 13px;
   }
@@ -32,27 +34,24 @@
   border-radius: 4px;
   box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
   padding-left: 3%;
-  padding-top: 3%;
-  padding-bottom: 3%;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
   outline: none;
   font-family: "General Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
 }
 
 @media only screen and (max-width: 1400px) {
   .sign-up-email-div input {
     font-size: 13px;
-    line-height: 15px;
   }
 }
 
 @media only screen and (max-width: 768px) {
   .sign-up-email-div input {
     font-size: 12px;
-    line-height: 14px;
   }
 }
 
@@ -63,14 +62,14 @@
   font-size: 14px;
   line-height: 22px;
   color: #000000;
-  margin-bottom: 24px;
+  margin-bottom: 2%;
   max-width: 80%;
 }
 
 @media only screen and (max-width: 1400px) {
   .sign-up-agreement-div {
     font-size: 13px;
-    line-height: 20px;
+    line-height: 17px;
   }
 }
 
@@ -82,7 +81,7 @@
 }
 
 .sign-up-btn {
-  margin-bottom: 4%;
+  margin-bottom: 3%;
 }
 
 .sign-up-btn button {
@@ -91,7 +90,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 30px;
-  padding: 5%;
+  padding: 3%;
   color: #ffffff;
   background: #000000;
   border-radius: 4px;
@@ -117,25 +116,37 @@
   font-family: "General Sans";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 22px;
   color: #000000;
 }
 
 @media only screen and (max-width: 1400px) {
   .sign-up-btn button {
-    font-size: 14px;
+    font-size: 12px;
     line-height: 17px;
   }
 }
 
 @media only screen and (max-width: 768px) {
   .sign-up-btn button {
-    font-size: 12px;
+    font-size: 11px;
     line-height: 14px;
   }
 }
 
 .sign-up-alternate-text span {
   text-decoration-line: underline;
+}
+
+.sign-up-agreement-div span {
+  text-decoration-line: underline;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.sign-up-alternate-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

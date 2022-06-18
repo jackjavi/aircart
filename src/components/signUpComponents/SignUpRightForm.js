@@ -21,7 +21,7 @@ const SignUpRightForm = () => {
     console.log(signUp);
   };
   return (
-    <form onSubmit={handleSubmit}>
+    <form className="sign-up-form" onSubmit={handleSubmit}>
       <div className="sign-up-email-div">
         <label htmlFor="email">Email</label>
         <input onChange={handleChange} type="email" name="email" id="email" />
@@ -39,8 +39,9 @@ const SignUpRightForm = () => {
 
       <div className="sign-up-agreement-div">
         <p>
-          By creating an account, you agree to our <span>Terms of Service</span>
-          and <span>Privacy & cookie statement.</span>
+          By creating an account, you agree to our
+          <span>Terms of Service </span>and
+          <span>Privacy & cookie statement.</span>
         </p>
       </div>
 
