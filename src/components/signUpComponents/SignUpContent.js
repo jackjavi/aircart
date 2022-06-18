@@ -63,15 +63,6 @@ const SignUpRight = () => {
             <div>
               <hr />
             </div>
-            <div
-              class="fb-login-button"
-              data-width=""
-              data-size="small"
-              data-button-type="continue_with"
-              data-layout="rounded"
-              data-auto-logout-link="true"
-              data-use-continue-as="true"
-            ></div>
           </div>
           <SignUpRightForm />
         </div>
