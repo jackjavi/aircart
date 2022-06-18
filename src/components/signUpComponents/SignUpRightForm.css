@@ -139,6 +139,10 @@
   text-decoration-line: underline;
 }
 
+.sign-up-agreement-div {
+  max-width: 72%;
+}
+
 .sign-up-agreement-div span {
   text-decoration-line: underline;
   margin-left: 1%;
