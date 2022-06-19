@@ -269,20 +269,18 @@
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  border: 1px solid rgb(192, 192, 192);
-
+  border: 1px solid #0777E8;
   box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
   width: 100%;
-  height: 6vh;
-  color: #000000;
+  height: 56px;
+  color: #0777E8;
   display: flex;
   align-items: center;
   gap: 2%;
   justify-content: center;
-  background: #ffffff;
-
+  background: #D4EEFF;
   border-radius: 4px;
-  padding: 0 3%;
+  padding: 15px;
 }
 
 @media only screen and (max-width: 1400px) {
