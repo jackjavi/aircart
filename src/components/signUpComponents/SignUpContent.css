@@ -177,8 +177,7 @@
   font-weight: 400;
   font-size: 32px;
   color: #000000;
-  max-width: 400px;
-  height: 10vh;
+
 }
 
 @media only screen and (max-width: 1400px) {
