@@ -70,7 +70,7 @@
   line-height: 22px;
   color: #000000;
   margin-bottom: 2%;
-  max-width: 80%;
+
 }
 
 @media only screen and (max-width: 1400px) {
@@ -147,7 +147,7 @@
 }
 
 .sign-up-agreement-div {
-  max-width: 72%;
+  max-width: 100%;
 }
 
 .sign-up-agreement-div span {
