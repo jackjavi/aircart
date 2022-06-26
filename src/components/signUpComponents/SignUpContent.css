@@ -277,7 +277,7 @@
   color: #0777e8;
   display: flex;
   align-items: center;
-  gap: 2%;
+  justify-content: space-around;
   background: #ffffff;
   border-radius: 4px;
   white-space: nowrap;
