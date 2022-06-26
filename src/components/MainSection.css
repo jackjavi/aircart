@@ -5,7 +5,7 @@
 
 .main-section {
   padding-top: 1%;
-  max-width: 1200px;
+  max-width: 1400px;
   display: flex;
   justify-content: space-between;
   gap: 50vw;
@@ -19,9 +19,10 @@
 @media only screen and (max-width: 992px) {
 }
 @media only screen and (max-width: 768px) {
-}
-@media only screen and (max-width: 576px) {
   .main-section {
     width: 100%;
+    padding: 0;
   }
+}
+@media only screen and (max-width: 576px) {
 }
