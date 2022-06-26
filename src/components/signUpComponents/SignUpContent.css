@@ -23,7 +23,6 @@
 .header-signup {
   display: flex;
   align-items: center;
-  height: 10%;
 }
 
 .sign-up-left-main-left {
@@ -213,8 +212,7 @@
 }
 
 .sign-up-right-buttons-div {
-  margin-top: 3vh;
-
+  margin-top: 1vh;
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 5%;
