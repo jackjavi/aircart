@@ -41,7 +41,7 @@
 }
 @media only screen and (max-width: 768px) {
 }
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 768px) {
   .preview-preview {
     position: absolute;
     background-color: #ffffff;
@@ -76,8 +76,7 @@
     color: #ffffff;
 
     width: 100%;
-    margin-left: 16px;
-    margin-right: 16px;
+
     z-index: 200;
   }
 }
