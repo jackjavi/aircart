@@ -1,5 +1,5 @@
 .main-left-container {
-  position: relative;
+  position: absolute;
   margin-bottom: 3%;
   width: 50vw;
   border-radius: 16px;

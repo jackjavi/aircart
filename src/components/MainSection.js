@@ -6,13 +6,11 @@ import FeaturedSeller from "../components/FeaturedSeller";
 
 const MainSection = () => {
   return (
-    <>
-      <main className="main-section">
-        <Form />
-        <MainSectionRight />
-        <FeaturedSeller />
-      </main>
-    </>
+    <div className="main-section">
+      <Form />
+      <MainSectionRight />
+      <FeaturedSeller />
+    </div>
   );
 };
 

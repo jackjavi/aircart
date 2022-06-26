@@ -1,8 +1,10 @@
 .sign-up-form {
   max-width: 100%;
-  height: 50vh;
 
   overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .sign-up-form::-webkit-scrollbar {
@@ -12,7 +14,7 @@
 .sign-up-email-div {
   display: flex;
   flex-direction: column;
-  margin-bottom: 2.5%;
+  margin-bottom: 2.5vh;
 }
 
 .sign-up-email-div label {
@@ -69,8 +71,8 @@
   font-size: 14px;
   line-height: 22px;
   color: #000000;
-  margin-bottom: 2%;
-
+  margin-top: 2.5vh;
+  margin-bottom: 2.5vh;
 }
 
 @media only screen and (max-width: 1400px) {

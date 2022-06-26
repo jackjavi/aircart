@@ -8,8 +8,7 @@
   max-width: 1200px;
   display: flex;
   justify-content: space-between;
-
-  position: relative;
+  gap: 50vw;
 }
 
 @media only screen and (min-width: 1400px) {
@@ -24,7 +23,5 @@
 @media only screen and (max-width: 576px) {
   .main-section {
     width: 100%;
-    display: flex;
-    align-items: center;
   }
 }

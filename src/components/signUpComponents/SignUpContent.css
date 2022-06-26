@@ -1,15 +1,8 @@
 .sign-up-content {
-  max-width: 1400px;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
-}
-
-.header-signup {
-  height: 15vh;
-  display: flex;
-  align-items: center;
 }
 
 .sign-up-left-container {
@@ -19,10 +12,24 @@
   padding-left: 5%;
   padding-top: 2.5%;
   width: 50vw;
+  background: url("../../assets/sign-up-background.png"),
+    linear-gradient(359.64deg, #000000 0.45%, rgba(0, 0, 0, 0.29) 99.83%);
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: 50vw;
+  background-size: cover;
+}
+
+.header-signup {
+  display: flex;
+  align-items: center;
+  height: 10%;
 }
 
 .sign-up-left-main-left {
-  height: 82vh;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30vh;
 }
 
 .sign-up-left-main-left h3 {
@@ -32,17 +39,10 @@
   font-size: 40px;
   max-width: 90%;
   color: #ffffff;
-  margin-top: 30%;
-  margin-bottom: 2%;
+  margin-bottom: 3%;
 }
 
-@media only screen and (min-width: 1400px) {
-  .sign-up-left-main-left h3 {
-    margin-top: 60%;
-  }
-}
-
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1400px) {
   .sign-up-left-main-left h3 {
     font-family: "Monument Extended";
     font-style: normal;
@@ -68,7 +68,7 @@
   font-weight: 400;
   font-size: 16px;
   color: #ffffff;
-  margin-bottom: 9%;
+
   max-width: 80%;
 }
 @media only screen and (max-width: 1200px) {
@@ -87,9 +87,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-
   text-align: right;
-
   color: #ffffff;
 }
 
@@ -152,9 +150,9 @@
 }
 
 .sign-up-right-main {
-  padding-left: 10%;
-  padding-top: 10%;
-  padding-right: 10%;
+  padding-left: 10vh;
+  padding-top: 5vh;
+  padding-right: 10vh;
   width: 50vw;
   max-width: 100%;
   height: 100vh;
@@ -177,7 +175,6 @@
   font-weight: 400;
   font-size: 32px;
   color: #000000;
-
 }
 
 @media only screen and (max-width: 1400px) {
@@ -198,9 +195,9 @@
   font-weight: 400;
   font-size: 16px;
   color: #000000;
-
   max-width: 75%;
   height: 7vh;
+  margin-top: 3vh;
 }
 
 @media only screen and (max-width: 1400px) {
@@ -216,7 +213,8 @@
 }
 
 .sign-up-right-buttons-div {
-  margin-bottom: 5%;
+  margin-top: 3vh;
+
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 5%;
@@ -269,18 +267,17 @@
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  border: 1px solid #0777E8;
+  border: 1px solid #c5ced8;
   box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
   width: 100%;
-  height: 56px;
-  color: #0777E8;
+  padding: 3.5%;
+  color: #0777e8;
   display: flex;
   align-items: center;
   gap: 2%;
   justify-content: center;
-  background: #D4EEFF;
+  background: #ffffff;
   border-radius: 4px;
-  padding: 15px;
 }
 
 @media only screen and (max-width: 1400px) {
@@ -296,6 +293,7 @@
 }
 
 .sign-up-right-hr-div {
+  margin-top: 3vh;
   margin-bottom: 5%;
   display: grid;
   grid-template-columns: 5fr 1fr 5fr;
