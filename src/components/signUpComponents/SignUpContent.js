@@ -77,7 +77,7 @@ const SignUpRight = () => {
             </button>*/}
             <div id="signin-div"></div>
             <FacebookLogin
-              appId="562866388662450"
+              appId="461859619083646"
               autoLoad={true}
               fields="name,email,picture"
               callback={responseFacebook}
