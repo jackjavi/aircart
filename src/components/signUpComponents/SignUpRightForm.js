@@ -43,7 +43,7 @@ const SignUpRightForm = () => {
           <p>
             By creating an account, you agree to our
             <span>Terms of Service </span>and
-            <span>Privacy & cookie statement.</span>
+            <p>Privacy & cookie statement.</p>
           </p>
         </div>
 

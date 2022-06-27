@@ -403,7 +403,7 @@
   padding: 1.8%;
   color: #0777e8;
   display: flex;
-  gap: 30%;
+  justify-content: space-around;
   padding-left: 2.5%;
   background: #ffffff;
   border-radius: 4px;
@@ -418,6 +418,8 @@
 
 @media only screen and (max-width: 768px) {
   .facebook-icon-text .my-facebook-button-class {
+    display: flex;
+    gap: 30%;
     font-size: 8px;
     padding: 0.7vh;
   }
