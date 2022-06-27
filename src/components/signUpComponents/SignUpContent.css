@@ -420,6 +420,7 @@
 @media only screen and (max-width: 768px) {
   .facebook-icon-text .my-facebook-button-class {
     display: flex;
+    justify-content: start;
     gap: 30%;
     font-size: 8px;
     padding: 0.7vh;
