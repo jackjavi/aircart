@@ -77,7 +77,7 @@ const SignUpRight = () => {
             </button>*/}
             <div id="signin-div"></div>
             <FacebookLogin
-              appId="461859619083646"
+              appId={process.env.FACEBOOK_AUTH}
               autoLoad={true}
               fields="name,email,picture"
               callback={responseFacebook}
