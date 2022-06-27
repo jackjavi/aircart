@@ -34,13 +34,13 @@
 
 @media only screen and (max-width: 1400px) {
   .sign-up-email-div label {
-    font-size: 13px;
+    font-size: 14px;
   }
 }
 
 @media only screen and (max-width: 1000px) {
   .sign-up-email-div label {
-    font-size: 12px;
+    font-size: 13px;
   }
 }
 
@@ -60,13 +60,15 @@
 
 @media only screen and (max-width: 1500px) {
   .sign-up-email-div input {
-    font-size: 12px;
+    font-size: 13px;
   }
 }
 
 @media only screen and (max-width: 768px) {
   .sign-up-email-div input {
-    font-size: 12px;
+    font-size: 13px;
+    padding-top: 3%;
+    padding-bottom: 3%;
   }
 }
 
