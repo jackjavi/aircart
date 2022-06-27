@@ -404,6 +404,7 @@
   color: #0777e8;
   display: flex;
   justify-content: space-around;
+  align-items: center;
   padding-left: 2.5%;
   background: #ffffff;
   border-radius: 4px;
