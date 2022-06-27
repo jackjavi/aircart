@@ -239,7 +239,7 @@
     height: 84%;
     padding: 3%;
     padding-top: 8%;
-    padding-bottom: 12%;
+    padding-bottom: 20%;
   }
 }
 
@@ -286,7 +286,7 @@
 @media only screen and (max-width: 768px) {
   .sign-up-right-main-title {
     font-size: 14px;
-    max-width: 40vw;
+    max-width: 45vw;
   }
 }
 
