@@ -257,14 +257,13 @@
 
 @media only screen and (max-width: 768px) {
   .content-top {
-    height: 30%;
+    height: 33%;
     padding-bottom: 1.5%;
   }
 }
 
 .content-bottom {
   height: 63%;
-
   padding-top: 2%;
 }
 
