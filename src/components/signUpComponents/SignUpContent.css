@@ -413,36 +413,28 @@
 .my-facebook-button-class {
   font-family: "General Sans";
   font-style: normal;
-
-  font-size: 16px;
-  border: 1px solid #c5ced8;
+  font-size: 17px;
+  border: 1px solid #3b5998;
   box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
   width: 100%;
-  padding: 1.8%;
-  color: #0777e8;
-  display: flex;
-  justify-content: space-around;
+  padding: 2.9%;
+  color: #ffffff;
+  display: grid;
+  grid-template-columns: 9% 91%;
   align-items: center;
-
-  background: #ffffff;
+  background: #3b5998;
   border-radius: 4px;
   white-space: nowrap;
 }
 
 @media only screen and (max-width: 1400px) {
-  .facebook-icon-text .my-facebook-button-class {
-    font-size: 14px;
+  .my-facebook-button-class {
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .facebook-icon-text .my-facebook-button-class {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    gap: 30%;
-    font-size: 8px;
-    padding: 0.7vh;
+  .my-facebook-button-class {
+    padding: 1.8%;
   }
 }
 

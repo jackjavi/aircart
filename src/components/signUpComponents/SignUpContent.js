@@ -26,7 +26,7 @@ const SignUpRight = () => {
 
     google.accounts.id.renderButton(document.getElementById("signin-div"), {
       theme: "outline",
-      size: "medium",
+      size: "large",
     });
   }, []);
 
