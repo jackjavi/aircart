@@ -27,20 +27,20 @@
   font-family: "General Sans";
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 17px;
   margin-bottom: 1%;
   color: #2a2929;
 }
 
 @media only screen and (max-width: 1400px) {
   .sign-up-email-div label {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 
 @media only screen and (max-width: 1000px) {
   .sign-up-email-div label {
-    font-size: 13px;
+    font-size: 16px;
   }
 }
 
@@ -49,8 +49,8 @@
   border-radius: 4px;
   box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
   padding-left: 3%;
-  padding-top: 1.5vh;
-  padding-bottom: 1.5vh;
+  padding-top: 1.8vh;
+  padding-bottom: 1.8vh;
   outline: none;
   font-family: "General Sans";
   font-style: normal;
@@ -60,11 +60,15 @@
 
 @media only screen and (max-width: 1500px) {
   .sign-up-email-div input {
+    padding-top: 1.6vh;
+    padding-bottom: 1.6vh;
   }
 }
 
 @media only screen and (max-width: 768px) {
   .sign-up-email-div input {
+    padding-top: 1.3vh;
+    padding-bottom: 1.3vh;
   }
 }
 
