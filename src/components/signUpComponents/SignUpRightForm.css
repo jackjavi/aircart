@@ -47,6 +47,7 @@
 
 @media only screen and (max-width: 768px) {
   .sign-up-email-div label {
+    font-size: 13px;
   }
 }
 
