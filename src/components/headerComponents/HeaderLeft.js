@@ -1,6 +1,6 @@
 import React from "react";
-import Logo from "../../assets/aircart-logo.png";
-import DarkLogo from "../../assets/aircart-dark-logo.png";
+import Logo from "../../assets/logo-white.svg";
+import DarkLogo from "../../assets/logo-dark-dark.svg";
 
 export const HeaderLeft = () => {
   return (
