@@ -211,7 +211,10 @@
 }
 
 .sign-up-right-header {
-  height: 12vh;
+  height: 12%;
+
+  display: flex;
+  align-items: center;
 }
 
 @media only screen and (min-width: 768px) {
@@ -236,7 +239,7 @@
 @media only screen and (max-width: 768px) {
   .sign-up-right-main {
     width: 100vw;
-    height: 84vh;
+    height: 88%;
     padding: 3%;
     padding-top: 4%;
     padding-bottom: 4%;
@@ -252,13 +255,11 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
-  min-height: 180px;
 }
 
 @media only screen and (max-width: 768px) {
   .content-top {
-    height: 33%;
+    height: 50%;
     padding-bottom: 1.5%;
   }
 }
@@ -270,8 +271,14 @@
 
 @media only screen and (max-width: 768px) {
   .content-bottom {
-    height: 63%;
+    height: 50%;
     padding-bottom: 10%;
+
+    overflow: auto;
+  }
+
+  .content-bottom::-webkit-scrollbar {
+    display: none;
   }
 }
 
