@@ -20,7 +20,7 @@ const SignUpRight = () => {
   React.useEffect(() => {
     /* global google */
     google.accounts.id.initialize({
-      client_id: `process.env.GOOGLE_AUTH`,
+      client_id: `979163570670-5spd53qi8ab4jq3cp9kftvjof1valog7.apps.googleusercontent.com`,
       callback: handleCallbackResponse,
     });
 
@@ -89,11 +89,12 @@ const SignUpRight = () => {
             </button>*/}
                 <div id="signin-div"></div>
                 <FacebookLogin
-                  appId="979163570670-ra7c4tdl0gd6ho7bjeadn53i9pakc1r7.apps.googleusercontent.com"
+                  appId="5495668660465250"
                   autoLoad={true}
                   fields="name,email,picture"
                   callback={responseFacebook}
                   cssClass="my-facebook-button-class"
+                  data-button-type="sign in with"
                   icon="fa-facebook"
                 />
 
